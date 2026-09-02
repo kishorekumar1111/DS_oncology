@@ -1,0 +1,311 @@
+patient_id,age,sex,smoking_status,cancer_type,histology,stage,creatinine_mg_dl,alt_u_l
+P0001,55.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.19,8.0
+P0002,49.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.14,8.0
+P0003,62.0,Female,True,NSCLC,NSCLC NOS,4.0,1.26,8.0
+P0004,77.0,Male,False,NSCLC,Squamous,4.0,0.73,8.0
+P0005,64.0,Female,False,NSCLC,Squamous,4.0,0.88,8.0
+P0006,61.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.37,8.0 U/L
+P0007,71.0,Female,True,NSCLC,Squamous,4.0,1.14,8.0
+P0008,57.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.22,8.0
+P0009,,Male,False,NSCLC,Adenocarcinoma,4.0,1.53,8.0
+P0010,79.0,Male,True,NSCLC,Squamous,4.0,0.87,8.0
+P0011,82.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.95,8.0
+P0012,,Female,False,NSCLC,NSCLC NOS,4.0,1.24,8.0
+P0013,60.0,Male,True,NSCLC,NSCLC NOS,4.0,1.07,8.0 U/L
+p0014,77.0,Male,False,NSCLC,NSCLC NOS,4.0,1.21,8.0
+P0015,61.0,Female,False,NSCLC,Squamous,4.0,1.01,8.0
+P0016,45.0,Female,False,NSCLC,Squamous,4.0,1.11,8.0
+P0017,70.0,Female,False,NSCLC,Squamous,4.0,0.61,8.0
+P0018,,Female,True,NSCLC,Squamous,4.0,1.05,8.0
+P0019,72.0,Female,False,NSCLC,NSCLC NOS,4.0,1.13,8.0
+P0020,,Female,False,NSCLC,Adenocarcinoma,4.0,0.90,8.0
+P0021,72.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.30,8.0
+P0022,84.0,Female,False,NSCLC,NSCLC NOS,4.0,1.10,8.0
+P0023,71.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.68,8.0
+P0024,56.0,Male,False,NSCLC,NSCLC NOS,4.0,1.11,8.0
+p0025,81.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.24,8.0
+P0026,55.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.80,8.0
+P0027,68.0,Female,True,NSCLC,,4.0,0.94,8.0
+P0028,52.0,Female,False,NSCLC,Squamous,4.0,1.27,8.0
+P0029,84.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.93,8.0
+P0030,45.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.13,12.9
+P0031,61.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.28,8.0
+P0032,85.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.42,8.0
+P0033,56.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.85,8.2
+P0034,69.0,Male,True,NSCLC,NSCLC NOS,4.0,0.81,8.0
+P0035,62.0,Female,True,NSCLC,Squamous,4.0,1.39,8.0
+P0036,74.0,Male,False,NSCLC,NSCLC NOS,4.0,1.29,8.0
+P0037,78.0,Female,False,NSCLC,NSCLC NOS,4.0,1.45,8.0
+P0038,69.0,Male,False,NSCLC,Squamous,4.0,0.92,8.6
+P0039,67.0,Female,False,NSCLC,NSCLC NOS,4.0,1.21,8.0
+P0040,,Male,True,NSCLC,Adenocarcinoma,4.0,0.56,8.0
+P0041,69.0,Female,True,NSCLC,Squamous,4.0,0.82,8.0
+P0042,48.0,Female,True,NSCLC,NSCLC NOS,4.0,1.04,8.0
+P0043,62.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.11,8.0
+P0044,79.0,Female,False,NSCLC,NSCLC NOS,4.0,1.27,8.0
+P0045,65.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.55,8.0
+P0046,54.0,Male,False,NSCLC,NSCLC NOS,4.0,1.29,8.0
+p0047,54.0,Male,True,NSCLC,NSCLC NOS,4.0,0.98,8.0
+P0048,58.0,Female,True,NSCLC,Squamous,4.0,1.23,8.0
+P0049,65.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.90,8.0
+P0050,76.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.58,8.0
+P0051,57.0,Female,False,NSCLC,Squamous,4.0,0.89,8.0
+P0052,73.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.39,8.0 U/L
+P0053,76.0,Female,False,NSCLC,Squamous,4.0,0.63,8.2
+P0054,60.0,Male,True,NSCLC,,4.0,0.81,8.0
+p0055,52.0,Female,False,NSCLC,Squamous,4.0,1.00,8.0
+P0056,67.0,Male,True,NSCLC,NSCLC NOS,4.0,1.20,8.0
+P0057,56.0,Male,True,NSCLC,NSCLC NOS,4.0,1.47,8.0
+P0058,69.0,Male,True,NSCLC,NSCLC NOS,4.0,1.15,8.0
+P0059,67.0,Male,False,NSCLC,Squamous,4.0,0.74,8.0
+P0060,77.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.35,8.0 U/L
+P0061,82.0,Female,False,NSCLC,NSCLC NOS,4.0,0.80,8.0
+P0062,75.0,Female,True,NSCLC,Squamous,4.0,1.08,8.0
+P0063,77.0,Male,True,NSCLC,Squamous,4.0,1.02,8.0
+P0064,68.0,Female,True,NSCLC,Squamous,4.0,1.19,8.0
+P0065,48.0,Male,True,NSCLC,NSCLC NOS,4.0,1.04,8.0
+P0066,75.0,Female,False,NSCLC,Squamous,4.0,0.91,8.0
+P0067,53.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.16,8.0
+P0068,66.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.64,8.0
+P0069,70.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.13,8.0
+P0070,75.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.16,8.0
+P0071,77.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.63,8.0
+P0072,79.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.74,8.0
+P0073,35.0,Female,False,NSCLC,Squamous,4.0,1.10,8.0
+P0074,70.0,Male,True,NSCLC,NSCLC NOS,4.0,0.95,8.0
+P0075,59.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.63,8.0
+P0076,59.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.82,8.0 U/L
+P0077,69.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.55,8.0
+P0078,90.0,Male,False,NSCLC,NSCLC NOS,4.0,1.10,8.0
+P0079,44.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.87,8.0
+P0080,71.0,Female,True,NSCLC,,4.0,1.23,8.0
+P0081,69.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.88,8.0
+P0082,44.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.65,8.0
+P0083,72.0,Female,False,NSCLC,Squamous,4.0,0.73,8.0 U/L
+P0084,70.0,Female,False,NSCLC,NSCLC NOS,4.0,0.57,8.0
+P0085,84.0,Female,True,NSCLC,Squamous,4.0,1.39,8.0
+p0086,77.0,Female,True,NSCLC,NSCLC NOS,4.0,1.23,8.0
+P0087,64.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.30,8.0
+P0088,70.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.25,8.0 U/L
+P0089,72.0,Female,True,NSCLC,NSCLC NOS,4.0,1.02,8.0
+P0090,54.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.87,8.0
+P0091,71.0,Male,False,NSCLC,NSCLC NOS,4.0,1.21,8.0
+P0092,75.0,Female,False,NSCLC,NSCLC NOS,4.0,0.83,8.0
+P0093,58.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.11,8.0
+P0094,77.0,Male,True,NSCLC,Squamous,4.0,0.68,8.0
+P0095,88.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.82,8.0
+P0096,77.0,Female,False,NSCLC,Squamous,4.0,1.21,8.0
+P0097,69.0,Female,True,NSCLC,NSCLC NOS,4.0,0.92,8.0
+P0098,50.0,Female,False,NSCLC,Squamous,4.0,0.87,8.0
+p0099,60.0,Female,False,NSCLC,Squamous,4.0,1.32,8.0
+P0100,60.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.65,8.0
+P0101,73.0,Female,False,NSCLC,Squamous,4.0,1.25,8.0
+P0102,69.0,Female,False,NSCLC,NSCLC NOS,4.0,1.39,8.0
+P0103,64.0,Male,False,NSCLC,Squamous,4.0,1.28,8.0
+P0104,63.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.14,8.0
+P0105,56.0,Male,True,NSCLC,Squamous,4.0,0.62,8.0
+P0106,64.0,Female,False,NSCLC,Squamous,4.0,0.95,8.0
+P0107,71.0,Female,True,NSCLC,Squamous,4.0,1.03,8.0
+P0108,,Female,True,NSCLC,Adenocarcinoma,4.0,0.76,8.0
+P0109,70.0,Male,True,NSCLC,NSCLC NOS,4.0,0.75,8.0
+P0110,60.0,Female,True,NSCLC,Squamous,4.0,1.07,8.0
+P0111,75.0,Male,True,NSCLC,NSCLC NOS,4.0,1.10,8.0
+P0112,59.0,Male,True,NSCLC,Squamous,4.0,0.69,8.0
+P0113,74.0,Female,False,NSCLC,NSCLC NOS,4.0,1.15,8.0
+P0114,74.0,Female,True,NSCLC,Squamous,4.0,0.68,8.0
+P0115,75.0,Male,True,NSCLC,NSCLC NOS,4.0,0.68,8.0
+P0116,46.0,Female,True,NSCLC,NSCLC NOS,4.0,1.22,8.0
+P0117,,Male,False,NSCLC,Adenocarcinoma,4.0,0.63,8.0
+P0118,63.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.06,8.0
+P0119,69.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.86,8.0
+P0120,89.0,Female,False,NSCLC,NSCLC NOS,4.0,0.77,8.0
+P0121,47.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.77,8.0
+P0122,72.0,Male,False,NSCLC,Squamous,4.0,0.96,8.0
+P0123,74.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.85,8.0
+P0124,53.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.88,8.0
+P0125,44.0,Female,False,NSCLC,NSCLC NOS,4.0,0.93,8.0
+P0126,61.0,Female,True,NSCLC,NSCLC NOS,4.0,1.11,8.0
+P0127,63.0,Male,True,NSCLC,NSCLC NOS,4.0,0.98,8.0
+P0128,52.0,Male,True,NSCLC,Squamous,4.0,1.11,8.0
+P0129,69.0,Male,True,NSCLC,Squamous,4.0,0.71,8.0
+P0130,57.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.95,8.0
+P0131,55.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.22,8.0
+P0132,,Female,False,NSCLC,Adenocarcinoma,4.0,0.88,8.0
+P0133,56.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.85,8.0
+P0134,70.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.94,8.0
+P0135,75.0,Male,True,NSCLC,Squamous,4.0,1.41,8.0
+P0136,73.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.32,8.0
+P0137,64.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.04,8.0
+P0138,63.0,Male,False,NSCLC,,4.0,0.89,8.0
+P0139,58.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.14,8.0
+P0140,71.0,Female,False,NSCLC,Squamous,4.0,0.96,8.0 U/L
+P0141,61.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.04,8.0
+P0142,63.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.46,8.0
+P0143,67.0,Female,True,NSCLC,NSCLC NOS,4.0,1.07,8.0
+P0144,77.0,Female,True,NSCLC,NSCLC NOS,4.0,1.26,8.0
+P0145,60.0,Male,True,NSCLC,Squamous,4.0,1.14,8.0
+P0146,64.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.90,8.0
+P0147,62.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.58,8.0 U/L
+P0148,,Female,False,NSCLC,Adenocarcinoma,4.0,1.03,8.0
+P0149,55.0,Male,False,NSCLC,Squamous,4.0,1.13,8.0
+P0150,64.0,Female,False,NSCLC,NSCLC NOS,4.0,0.95,8.0 U/L
+P0151,81.0,Female,False,NSCLC,Squamous,4.0,0.83,8.0
+P0152,54.0,Female,True,NSCLC,Squamous,4.0,1.33,8.0
+P0153,63.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.09,8.0
+P0154,35.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.91,8.0
+P0155,87.0,Female,False,NSCLC,NSCLC NOS,4.0,1.02,8.0
+P0156,47.0,Female,True,NSCLC,NSCLC NOS,4.0,0.55,8.0
+P0157,83.0,Female,False,NSCLC,Squamous,4.0,1.07,8.0 U/L
+P0158,75.0,Female,True,NSCLC,Squamous,4.0,1.07,8.0
+P0159,49.0,Female,True,NSCLC,NSCLC NOS,4.0,1.23,8.0
+P0160,77.0,Male,False,NSCLC,NSCLC NOS,4.0,1.12,8.0
+P0161,65.0,Male,True,NSCLC,NSCLC NOS,4.0,0.55,8.0
+P0162,,Female,False,NSCLC,NSCLC NOS,4.0,1.22,8.0
+P0163,57.0,Female,True,NSCLC,Squamous,4.0,1.07,8.0
+P0164,62.0,Female,False,NSCLC,NSCLC NOS,4.0,0.61,8.0 U/L
+P0165,62.0,Female,True,NSCLC,Squamous,4.0,1.02,8.0
+P0166,84.0,Female,True,NSCLC,NSCLC NOS,4.0,1.03,8.0
+P0167,61.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.18,8.0
+P0168,49.0,Female,True,NSCLC,Squamous,4.0,1.25,8.0
+P0169,61.0,Female,False,NSCLC,Squamous,4.0,0.86,8.0
+P0170,80.0,Female,True,NSCLC,NSCLC NOS,4.0,0.87,8.0
+p0171,81.0,Female,True,NSCLC,NSCLC NOS,4.0,1.28,8.7
+P0172,78.0,Female,False,NSCLC,NSCLC NOS,4.0,1.31,8.0
+P0173,73.0,Male,True,NSCLC,NSCLC NOS,4.0,1.34,8.0
+P0174,69.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.84,8.0
+P0175,66.0,Male,True,NSCLC,Squamous,4.0,1.12,8.0
+P0176,49.0,Female,False,NSCLC,Squamous,4.0,1.15,8.0
+P0177,58.0,Female,True,NSCLC,NSCLC NOS,4.0,0.65,8.0
+P0178,85.0,Female,False,NSCLC,NSCLC NOS,4.0,0.64,8.0
+P0179,56.0,Female,False,NSCLC,Squamous,4.0,1.03,8.0
+P0180,36.0,Female,True,NSCLC,NSCLC NOS,4.0,1.05,8.0
+P0181,,Female,True,NSCLC,Squamous,4.0,1.10,8.0
+P0182,38.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.96,8.0
+P0183,62.0,Female,True,NSCLC,Squamous,4.0,0.92,8.0
+P0184,57.0,Female,False,NSCLC,Squamous,4.0,0.88,8.0
+P0185,67.0,Female,True,NSCLC,Squamous,4.0,1.04,8.0
+P0186,85.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.18,8.0
+P0187,72.0,Male,False,NSCLC,NSCLC NOS,4.0,0.73,8.0
+P0188,46.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.84,8.0
+P0189,90.0,Female,True,NSCLC,Squamous,4.0,1.44,8.0
+P0190,64.0,Male,False,NSCLC,NSCLC NOS,4.0,1.37,8.0
+P0191,76.0,Female,False,NSCLC,Squamous,4.0,0.78,8.0
+P0192,68.0,Female,False,NSCLC,Squamous,4.0,1.28,8.0
+P0193,62.0,Female,False,NSCLC,Squamous,4.0,1.34,8.0
+P0194,70.0,Male,False,NSCLC,Squamous,4.0,1.14,8.0
+P0195,89.0,Female,True,NSCLC,NSCLC NOS,4.0,1.18,8.0
+P0196,70.0,Male,False,NSCLC,Squamous,4.0,0.98,8.6
+P0197,66.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.23,8.0
+P0198,45.0,Female,False,NSCLC,Squamous,4.0,1.10,8.0
+P0199,45.0,Female,True,NSCLC,NSCLC NOS,4.0,1.19,8.0
+P0200,65.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.16,8.5
+P0201,56.0,Female,False,NSCLC,Squamous,4.0,0.71,8.0
+P0202,64.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.93,8.0
+P0203,56.0,Male,True,NSCLC,NSCLC NOS,4.0,1.24,8.0
+P0204,60.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.74,8.0
+P0205,72.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.75,8.0
+P0206,69.0,Female,False,NSCLC,Squamous,4.0,1.19,8.0
+P0207,81.0,Male,False,NSCLC,NSCLC NOS,4.0,1.33,8.0
+P0208,64.0,Female,False,NSCLC,,4.0,0.75,8.0
+P0209,36.0,Female,True,NSCLC,NSCLC NOS,4.0,0.94,8.0
+P0210,67.0,Female,True,NSCLC,,4.0,1.14,8.0
+P0211,64.0,Female,True,NSCLC,NSCLC NOS,4.0,0.81,8.0
+P0212,78.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.00,8.0
+P0213,54.0,Female,False,NSCLC,Squamous,4.0,0.59,8.0
+P0214,51.0,Male,False,NSCLC,Squamous,4.0,0.75,8.0
+P0215,85.0,Male,True,NSCLC,Squamous,4.0,0.99,8.0
+P0216,75.0,Male,True,NSCLC,Squamous,4.0,0.90,8.0
+P0217,55.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.10,9.4
+P0218,74.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.19,8.0
+P0219,72.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.00,8.0
+P0220,73.0,Female,True,NSCLC,Squamous,4.0,1.04,8.0
+P0221,46.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.80,8.0
+P0222,76.0,Female,False,NSCLC,NSCLC NOS,4.0,1.27,8.0
+P0223,75.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.97,8.0
+P0224,70.0,Female,True,NSCLC,Squamous,4.0,0.90,8.0
+P0225,61.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.62,8.0 U/L
+P0226,73.0,Female,True,NSCLC,Squamous,4.0,1.30,8.0
+P0227,57.0,Male,True,NSCLC,Adenocarcinoma,4.0,0.85,8.0
+P0228,89.0,Female,True,NSCLC,Squamous,4.0,0.96,8.0
+P0229,68.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.57,8.0
+P0230,61.0,Female,True,NSCLC,NSCLC NOS,4.0,1.26,9.1
+P0231,69.0,Female,True,NSCLC,NSCLC NOS,4.0,0.84,8.0
+P0232,62.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.01,8.0
+P0233,69.0,Female,False,NSCLC,,4.0,0.88,8.0
+P0234,,Female,True,NSCLC,Adenocarcinoma,4.0,0.84,8.0
+P0235,64.0,Female,False,NSCLC,Squamous,4.0,1.23,8.0
+P0236,89.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.17,8.0
+P0237,65.0,Male,False,NSCLC,NSCLC NOS,4.0,0.88,8.0
+P0238,72.0,Female,True,NSCLC,Squamous,4.0,0.80,8.0
+P0239,55.0,Female,True,NSCLC,,4.0,0.70,8.0 U/L
+P0240,65.0,Male,False,NSCLC,NSCLC NOS,4.0,0.90,8.0
+P0241,53.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.19,8.0
+P0242,52.0,Female,False,NSCLC,Squamous,4.0,1.13,8.0
+P0243,67.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.06,8.0
+P0244,54.0,Male,False,NSCLC,Squamous,4.0,1.14,8.0
+P0245,40.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.21,8.0
+P0246,80.0,Female,False,NSCLC,Squamous,4.0,0.99,8.0
+P0247,71.0,Female,True,NSCLC,Squamous,4.0,0.87,8.0
+P0248,78.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.61,8.0
+P0249,65.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.21,8.0 U/L
+P0250,,Female,False,NSCLC,Adenocarcinoma,4.0,0.85,8.0
+P0251,64.0,Female,True,NSCLC,NSCLC NOS,4.0,1.25,8.0
+P0252,86.0,Male,True,NSCLC,Squamous,4.0,0.78,8.0
+P0253,64.0,Female,False,NSCLC,Squamous,4.0,0.87,8.0
+P0254,64.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.87,8.0
+P0255,,Female,False,NSCLC,Squamous,4.0,0.68,8.0
+P0256,70.0,Female,True,NSCLC,NSCLC NOS,4.0,1.08,8.0
+P0257,59.0,Male,False,NSCLC,NSCLC NOS,4.0,0.97,8.0
+P0258,62.0,Female,False,NSCLC,Squamous,4.0,1.31,8.0
+P0259,71.0,Female,False,NSCLC,Squamous,4.0,1.39,8.0
+P0260,66.0,Female,False,NSCLC,NSCLC NOS,4.0,1.10,8.0
+P0261,63.0,Female,True,NSCLC,NSCLC NOS,4.0,0.69,8.7
+P0262,71.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.77,8.0 U/L
+P0263,46.0,Female,True,NSCLC,NSCLC NOS,4.0,1.08,8.0
+P0264,74.0,Female,True,NSCLC,Squamous,4.0,1.04,8.0
+P0265,45.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.90,8.0
+P0266,65.0,Female,False,NSCLC,NSCLC NOS,4.0,0.90,8.0
+P0267,70.0,Female,True,NSCLC,NSCLC NOS,4.0,1.03,8.0
+P0268,73.0,Male,True,NSCLC,Squamous,4.0,0.62,8.0
+P0269,66.0,Female,False,NSCLC,Squamous,4.0,1.14,8.0
+P0270,78.0,Male,True,NSCLC,,4.0,0.77,8.0
+P0271,81.0,Male,False,NSCLC,NSCLC NOS,4.0,1.02,8.0
+P0272,39.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.07,8.0 U/L
+P0273,64.0,Male,False,NSCLC,NSCLC NOS,4.0,1.11,8.0
+P0274,66.0,Female,False,NSCLC,NSCLC NOS,4.0,1.14,8.0
+P0275,62.0,Male,True,NSCLC,Squamous,4.0,0.87,8.1
+P0276,69.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.76,8.0
+P0277,66.0,Male,False,NSCLC,Adenocarcinoma,4.0,1.05,8.0
+P0278,48.0,Female,False,NSCLC,Adenocarcinoma,4.0,0.98,8.0
+P0279,67.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.59,8.0
+P0280,59.0,Male,True,NSCLC,NSCLC NOS,4.0,0.83,8.0
+P0281,57.0,Female,False,NSCLC,NSCLC NOS,4.0,0.90,8.0
+P0282,79.0,Female,True,NSCLC,Squamous,4.0,1.24,8.0
+P0283,82.0,Female,False,NSCLC,NSCLC NOS,4.0,0.88,8.0
+P0284,74.0,Female,True,NSCLC,NSCLC NOS,4.0,1.14,8.0
+P0285,72.0,Male,True,NSCLC,Squamous,4.0,0.64,8.0
+P0286,58.0,Female,True,NSCLC,Adenocarcinoma,4.0,1.30,8.0
+P0287,67.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.83,8.0
+P0288,77.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.79,8.0 U/L
+P0289,69.0,Male,True,NSCLC,Squamous,4.0,1.31,8.0
+P0290,61.0,Male,True,NSCLC,NSCLC NOS,4.0,0.86,8.0
+P0291,54.0,Male,False,NSCLC,NSCLC NOS,4.0,0.65,8.0
+P0292,59.0,Female,True,NSCLC,,4.0,0.76,8.0
+P0293,54.0,Male,True,NSCLC,Squamous,4.0,1.10,8.0
+P0294,56.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.06,8.0
+P0295,72.0,Male,False,NSCLC,NSCLC NOS,4.0,1.15,8.0
+P0296,83.0,Female,True,NSCLC,Adenocarcinoma,4.0,0.99,8.0
+P0297,55.0,Male,True,NSCLC,Squamous,4.0,1.10,8.0
+P0298,50.0,Female,True,NSCLC,NSCLC NOS,4.0,0.88,8.0
+P0299,74.0,Male,True,NSCLC,Adenocarcinoma,4.0,1.07,8.0
+P0300,85.0,Female,True,NSCLC,Squamous,4.0,0.82,8.0
+P0255,,Female,False,NSCLC,Squamous,4.0,0.68,8.0
+P0058,69.0,Male,True,NSCLC,NSCLC NOS,4.0,1.15,8.0
+P0151,81.0,Female,False,NSCLC,Squamous,4.0,0.83,8.0
+P0067,53.0,Female,False,NSCLC,Adenocarcinoma,4.0,1.16,8.0
+P0115,75.0,Male,True,NSCLC,NSCLC NOS,4.0,0.68,8.0
+P0281,57.0,Female,False,NSCLC,NSCLC NOS,4.0,0.90,8.0
+P0205,72.0,Male,False,NSCLC,Adenocarcinoma,4.0,0.75,8.0
+P0250,,Female,False,NSCLC,Adenocarcinoma,4.0,0.85,8.0
+P0038,69.0,Male,False,NSCLC,Squamous,4.0,0.92,8.6
+P0178,85.0,Female,False,NSCLC,NSCLC NOS,4.0,0.64,8.0

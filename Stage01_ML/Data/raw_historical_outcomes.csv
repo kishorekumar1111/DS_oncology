@@ -1,0 +1,301 @@
+patient_id,treatment_name,line_of_therapy,best_response,progression_status,pfs_months,overall_survival_months,toxicity_grade,toxicity_event
+P0001,Docetaxel,2,SD,Progressed,11.9,16.6,1.0,None/Grade <3
+P0002,Pembrolizumab,2,PR,Not progressed,17.7,34.8,3.0,Grade >=3
+P0003,Alectinib,2L,SD,Not progressed,9.5,30.8,0.0,None/Grade <3
+P0004,Pembrolizumab,First line,SD,Progressed,6.2,23.6,3.0,Grade >=3
+P0005,Carboplatin+Pemetrexed,1L,PR,Not progressed,6.2,31.7,2.0,None/Grade <3
+P0006,Nivolumab,2L,SD,Progressed,3.4,23.7,3.0,Grade >=3
+P0007,Pembrolizumab,2,SD,Progressed,4.3,20.1,1.0,None/Grade <3
+P0008,Alectinib,1,SD,Progressed,1.7,15.3,0.0,None/Grade <3
+P0009,Docetaxel,1,PR,Not progressed,3.3,9.0,4.0,Grade >=3
+P0010,Pembrolizumab,2L,PR,Progressed,19.6,39.5,0.0,None/Grade <3
+P0011,Alectinib,1,PR,Not progressed,3.9,9.6,0.0,None/Grade <3
+P0012,Nivolumab,2L,PR,Progressed,16.5,15.3,3.0,Grade >=3
+p0013,Carboplatin+Pemetrexed,First line,SD,Not progressed,14.6,18.3,1.0,None/Grade <3
+P0014,Nivolumab,2,SD,Progressed,6.5,13.6,3.0,Grade >=3
+P0015,Alectinib,First line,SD,Not progressed,13.3,14.4,0.0,None/Grade <3
+P0016,Docetaxel,2,PR,Not progressed,7.6,39.2,2.0,None/Grade <3
+P0017,Nivolumab,1L,SD,Progressed,10.6,27.3,1.0,None/Grade <3
+P0018,Carboplatin+Pemetrexed,1L,PR,Progressed,4.8,21.2,0.0,None/Grade <3
+P0019,Osimertinib,First line,PR,Not progressed,8.0,8.2,1.0,None/Grade <3
+P0020,Osimertinib,First line,PR,Progressed,16.1,26.0,1.0,None/Grade <3
+P0021,Osimertinib,2,SD,Progressed,14.1,17.4,0.0,None/Grade <3
+P0022,Docetaxel,First line,SD,Progressed,14.1,34.5,,Grade >=3
+P0023,Carboplatin+Pemetrexed,1L,PD,Progressed,16.7,22.6,2.0,None/Grade <3
+P0024,Alectinib,2,CR,Not progressed,26.1,5.4,1.0,None/Grade <3
+P0025,Osimertinib,1L,PD,Progressed,6.1,31.9,4.0,Grade >=3
+P0026,Alectinib,1L,SD,Not progressed,8.5,33.3,2.0,None/Grade <3
+P0027,Pembrolizumab,2L,PR,Progressed,6.8,18.3,0.0,None/Grade <3
+p0028,Osimertinib,1,PR,Progressed,18.3,18.2,1.0,None/Grade <3
+P0029,Alectinib,First line,PR,Not progressed,4.3,23.4,3.0,Grade >=3
+P0030,Pembrolizumab,First line,CR,Not progressed,3.5,13.9,1.0,None/Grade <3
+P0031,Osimertinib,2L,PD,Progressed,6.1,26.0,4.0,Grade >=3
+P0032,Carboplatin+Pemetrexed,First line,PD,Progressed,9.3,21.7,,None/Grade <3
+P0033,Alectinib,1L,SD,Not progressed,8.8,26.7,0.0,None/Grade <3
+P0034,Docetaxel,First line,PR,Progressed,3.0,33.8,0.0,None/Grade <3
+P0035,Carboplatin+Pemetrexed,2,PD,Progressed,5.0,36.5,2.0,None/Grade <3
+P0036,Carboplatin+Pemetrexed,1L,SD,Not progressed,5.9,31.7,4.0,Grade >=3
+P0037,Docetaxel,1,PR,Not progressed,2.4,22.7,1.0,None/Grade <3
+P0038,Alectinib,1,SD,Progressed,16.2,22.5,2.0,None/Grade <3
+P0039,Alectinib,2,PR,Not progressed,6.0,36.2,2.0,None/Grade <3
+P0040,Alectinib,2L,PR,Progressed,6.3,32.8,1.0,None/Grade <3
+P0041,Pembrolizumab,1,SD,Not progressed,13.2,13.0,3.0,Grade >=3
+P0042,Osimertinib,2L,PR,Not progressed,4.3,13.3,3.0,Grade >=3
+P0043,Alectinib,1,SD,Progressed,25.9,9.9,0.0,None/Grade <3
+P0044,Alectinib,1L,SD,Progressed,17.8,11.8,0.0,None/Grade <3
+P0045,Osimertinib,2L,PR,Progressed,7.7,36.7,2.0,None/Grade <3
+P0046,Osimertinib,2L,PR,Progressed,6.2,12.6,3.0,Grade >=3
+P0047,Carboplatin+Pemetrexed,1L,SD,Progressed,11.4,19.8,0.0,None/Grade <3
+P0048,Docetaxel,2,SD,Not progressed,4.5,32.6,3.0,Grade >=3
+P0049,Carboplatin+Pemetrexed,First line,PR,Progressed,4.8,16.4,0.0,None/Grade <3
+P0050,Nivolumab,First line,PD,Progressed,4.9,25.5,0.0,None/Grade <3
+P0051,Nivolumab,1,CR,Not progressed,14.6,12.1,4.0,Grade >=3
+P0052,Pembrolizumab,2,PR,Progressed,3.4,17.2,1.0,None/Grade <3
+P0053,Docetaxel,First line,CR,Progressed,12.5,28.3,2.0,None/Grade <3
+P0054,Nivolumab,First line,PR,Not progressed,8.4,18.4,2.0,None/Grade <3
+P0055,Carboplatin+Pemetrexed,First line,PR,Not progressed,18.9,35.8,0.0,None/Grade <3
+P0056,Pembrolizumab,2L,PR,Not progressed,12.1,17.1,1.0,None/Grade <3
+P0057,Alectinib,2,PR,Progressed,27.4,14.9,1.0,None/Grade <3
+P0058,Alectinib,2L,SD,Not progressed,,11.9,3.0,Grade >=3
+P0059,Alectinib,First line,PD,Progressed,5.7,15.0,0.0,None/Grade <3
+P0060,Docetaxel,2L,PD,Progressed,13.6,28.6,1.0,None/Grade <3
+P0061,Carboplatin+Pemetrexed,2L,PR,Not progressed,3.4,15.5,1.0,None/Grade <3
+P0062,Nivolumab,1,PR,Progressed,4.7,26.9,4.0,Grade >=3
+P0063,Nivolumab,First line,PD,Progressed,6.1,34.6,2.0,None/Grade <3
+P0064,Docetaxel,1,PR,Progressed,3.1,38.9,3.0,Grade >=3
+P0065,Nivolumab,2,SD,Progressed,12.5,18.0,0.0,None/Grade <3
+P0066,Carboplatin+Pemetrexed,2,PD,Progressed,5.6,30.4,3.0,Grade >=3
+P0067,Carboplatin+Pemetrexed,1,PD,Progressed,5.6,10.7,1.0,None/Grade <3
+P0068,Docetaxel,2,PR,Not progressed,8.1,8.9,0.0,None/Grade <3
+P0069,Pembrolizumab,First line,PR,Progressed,3.3,13.3,2.0,None/Grade <3
+P0070,Pembrolizumab,2L,PR,Progressed,16.5,31.1,3.0,Grade >=3
+P0071,Docetaxel,First line,PD,Progressed,8.3,17.5,3.0,Grade >=3
+P0072,Nivolumab,1L,PR,Not progressed,10.9,23.9,0.0,None/Grade <3
+P0073,Docetaxel,2,SD,Progressed,5.0,22.4,4.0,Grade >=3
+P0074,Carboplatin+Pemetrexed,2,SD,Progressed,9.0,39.2,0.0,None/Grade <3
+P0075,Carboplatin+Pemetrexed,1L,SD,Progressed,2.0,19.9,2.0,None/Grade <3
+P0076,Nivolumab,1L,CR,Not progressed,18.3,13.4,2.0,None/Grade <3
+P0077,Alectinib,1L,PR,Progressed,10.0,14.1,0.0,None/Grade <3
+P0078,Docetaxel,1L,PD,Progressed,1.0,15.5,4.0,Grade >=3
+P0079,Docetaxel,1,PR,Progressed,12.2,10.3,2.0,None/Grade <3
+P0080,Nivolumab,1,PD,Progressed,12.5,18.8,0.0,None/Grade <3
+P0081,Docetaxel,2L,PD,Progressed,11.5,14.2,2.0,None/Grade <3
+P0082,Alectinib,First line,SD,Not progressed,13.6,32.0,0.0,None/Grade <3
+P0083,Pembrolizumab,First line,PR,Not progressed,4.0,16.4,2.0,None/Grade <3
+P0084,Osimertinib,1,PD,Progressed,10.0,26.0,0.0,None/Grade <3
+P0085,Pembrolizumab,2L,PD,Progressed,4.7,21.6,1.0,None/Grade <3
+P0086,Alectinib,2L,PD,Progressed,9.5,23.6,3.0,Grade >=3
+P0087,Alectinib,1,PR,Not progressed,3.3,19.7,1.0,None/Grade <3
+P0088,Carboplatin+Pemetrexed,2,SD,Progressed,12.4,29.7,0.0,None/Grade <3
+P0089,Docetaxel,2L,SD,Not progressed,13.7,11.8,2.0,None/Grade <3
+P0090,Osimertinib,1,CR,Not progressed,17.4,26.2,3.0,Grade >=3
+P0091,Alectinib,1,PR,Progressed,9.6,23.5,1.0,None/Grade <3
+P0092,Pembrolizumab,2,SD,Progressed,9.7,20.6,0.0,None/Grade <3
+P0093,Alectinib,2L,PD,Progressed,7.3,20.7,0.0,None/Grade <3
+P0094,Docetaxel,First line,PD,Progressed,7.8,24.1,2.0,None/Grade <3
+P0095,Nivolumab,2,PR,Progressed,9.4,24.1,3.0,Grade >=3
+P0096,Carboplatin+Pemetrexed,1,PR,Progressed,7.6,27.3,1.0,None/Grade <3
+P0097,Carboplatin+Pemetrexed,2L,PR,Not progressed,6.3,16.0,2.0,None/Grade <3
+P0098,Osimertinib,1,PD,Progressed,7.2,19.3,0.0,None/Grade <3
+p0099,Nivolumab,2,SD,Not progressed,7.1,21.2,1.0,None/Grade <3
+P0100,Nivolumab,First line,PR,Progressed,17.2,38.0,3.0,Grade >=3
+P0101,Pembrolizumab,1,SD,Not progressed,9.7,21.1,1.0,None/Grade <3
+P0102,Nivolumab,1L,PR,Not progressed,6.6,27.8,1.0,None/Grade <3
+P0103,Pembrolizumab,First line,PR,Not progressed,,17.1,0.0,None/Grade <3
+P0104,Alectinib,2,PR,Not progressed,7.0,34.1,2.0,None/Grade <3
+P0105,Pembrolizumab,1L,PR,Not progressed,10.9,11.8,2.0,None/Grade <3
+P0106,Docetaxel,2,PR,Not progressed,6.6,21.5,2.0,None/Grade <3
+P0107,Pembrolizumab,1L,PD,Progressed,14.8,16.8,2.0,None/Grade <3
+P0108,Carboplatin+Pemetrexed,1,PR,Not progressed,3.9,22.7,2.0,None/Grade <3
+P0109,Docetaxel,1L,PR,Not progressed,13.9,13.3,3.0,Grade >=3
+P0110,Pembrolizumab,2L,SD,Not progressed,4.5,18.7,1.0,None/Grade <3
+P0111,Carboplatin+Pemetrexed,First line,SD,Progressed,7.2,10.4,0.0,None/Grade <3
+P0112,Alectinib,1,SD,Not progressed,6.2,11.8,1.0,None/Grade <3
+P0113,Pembrolizumab,2,PR,Not progressed,6.3,19.5,0.0,None/Grade <3
+P0114,Pembrolizumab,1,PR,Progressed,11.6,15.6,4.0,Grade >=3
+P0115,Alectinib,1,PD,Progressed,8.6,23.9,0.0,None/Grade <3
+P0116,Osimertinib,2L,CR,Not progressed,6.4,17.3,3.0,Grade >=3
+P0117,Carboplatin+Pemetrexed,1L,CR,Progressed,13.5,20.6,,Grade >=3
+P0118,Docetaxel,2,SD,Not progressed,5.2,7.3,2.0,None/Grade <3
+p0119,Osimertinib,1,PR,Not progressed,5.4,15.4,1.0,None/Grade <3
+P0120,Carboplatin+Pemetrexed,2L,PD,Progressed,5.8,6.9,1.0,None/Grade <3
+P0121,Nivolumab,2L,SD,Progressed,12.8,22.5,3.0,Grade >=3
+P0122,Osimertinib,1,PR,Progressed,14.8,20.1,1.0,None/Grade <3
+P0123,Docetaxel,1,PD,Progressed,11.1,69.7,1.0,None/Grade <3
+P0124,Osimertinib,2,PR,Progressed,4.0,12.0,0.0,None/Grade <3
+P0125,Pembrolizumab,1,PR,Progressed,6.6,23.2,0.0,None/Grade <3
+P0126,Docetaxel,First line,PR,Progressed,19.4,14.0,3.0,Grade >=3
+P0127,Pembrolizumab,1L,SD,Progressed,12.2,22.9,3.0,Grade >=3
+P0128,Nivolumab,2,SD,Not progressed,9.8,33.4,0.0,None/Grade <3
+P0129,Alectinib,First line,PD,Progressed,4.4,21.9,2.0,None/Grade <3
+P0130,Carboplatin+Pemetrexed,2,PR,Not progressed,8.7,29.7,0.0,None/Grade <3
+P0131,Pembrolizumab,First line,PR,Not progressed,5.2,32.2,1.0,None/Grade <3
+P0132,Alectinib,2,PR,Progressed,13.9,11.3,2.0,None/Grade <3
+P0133,Alectinib,First line,PR,Not progressed,10.4,26.5,0.0,None/Grade <3
+P0134,Nivolumab,First line,PR,Progressed,11.7,13.6,0.0,None/Grade <3
+P0135,Osimertinib,1L,PD,Progressed,3.6,14.3,1.0,None/Grade <3
+P0136,Nivolumab,2,PR,Not progressed,15.3,26.9,0.0,None/Grade <3
+P0137,Osimertinib,1,SD,Progressed,13.5,23.5,1.0,None/Grade <3
+P0138,Osimertinib,2,SD,Not progressed,,28.2,0.0,None/Grade <3
+P0139,Carboplatin+Pemetrexed,2L,PD,Progressed,3.9,24.3,2.0,None/Grade <3
+P0140,Pembrolizumab,1L,PR,Progressed,7.4,13.8,1.0,None/Grade <3
+P0141,Docetaxel,2,SD,Progressed,6.4,17.6,2.0,None/Grade <3
+P0142,Carboplatin+Pemetrexed,1L,SD,Progressed,5.0,18.2,2.0,None/Grade <3
+P0143,Pembrolizumab,First line,PR,Not progressed,3.5,16.5,0.0,None/Grade <3
+P0144,Nivolumab,2,SD,Not progressed,26.2,22.0,1.0,None/Grade <3
+P0145,Osimertinib,2L,SD,Progressed,24.0,9.4,1.0,None/Grade <3
+P0146,Docetaxel,2L,PR,Not progressed,20.6,26.1,3.0,Grade >=3
+P0147,Docetaxel,1,SD,Not progressed,6.1,28.3,1.0,None/Grade <3
+P0148,Alectinib,First line,PR,Progressed,16.9,11.0,4.0,Grade >=3
+P0149,Carboplatin+Pemetrexed,2,SD,Not progressed,8.5,33.0,2.0,None/Grade <3
+P0150,Osimertinib,First line,SD,Progressed,12.7,15.2,3.0,Grade >=3
+P0151,Carboplatin+Pemetrexed,First line,PD,Progressed,6.7,22.1,2.0,None/Grade <3
+P0152,Pembrolizumab,First line,PR,Not progressed,9.5,24.9,0.0,None/Grade <3
+P0153,Alectinib,1,PR,Progressed,,26.7,0.0,None/Grade <3
+P0154,Carboplatin+Pemetrexed,2L,PD,Progressed,9.4,17.2,0.0,None/Grade <3
+P0155,Carboplatin+Pemetrexed,2,SD,Not progressed,4.6,36.9,2.0,None/Grade <3
+P0156,Docetaxel,2L,PR,Progressed,13.1,27.1,3.0,Grade >=3
+P0157,Pembrolizumab,2L,SD,Not progressed,4.8,17.9,4.0,Grade >=3
+P0158,Docetaxel,2L,PD,Progressed,8.5,46.1,0.0,None/Grade <3
+P0159,Osimertinib,2L,PD,Progressed,4.4,70.0,,None/Grade <3
+P0160,Pembrolizumab,1L,SD,Not progressed,4.2,13.2,1.0,None/Grade <3
+P0161,Carboplatin+Pemetrexed,2,PR,Progressed,31.9,38.1,0.0,None/Grade <3
+P0162,Docetaxel,2L,PD,Progressed,13.4,19.3,0.0,None/Grade <3
+P0163,Docetaxel,2,PR,Not progressed,7.2,21.9,0.0,None/Grade <3
+P0164,Osimertinib,1,PR,Not progressed,3.5,16.2,0.0,None/Grade <3
+P0165,Nivolumab,2,PR,Progressed,13.9,21.5,2.0,None/Grade <3
+P0166,Nivolumab,1,PR,Not progressed,12.7,24.0,4.0,Grade >=3
+P0167,Carboplatin+Pemetrexed,First line,PD,Progressed,7.8,19.1,4.0,Grade >=3
+P0168,Alectinib,1L,PR,Not progressed,15.8,25.0,1.0,None/Grade <3
+P0169,Pembrolizumab,2L,PR,Progressed,12.0,4.0,1.0,None/Grade <3
+P0170,Docetaxel,2L,SD,Not progressed,5.2,17.9,2.0,None/Grade <3
+P0171,Carboplatin+Pemetrexed,1L,PR,Not progressed,7.7,23.7,0.0,None/Grade <3
+P0172,Carboplatin+Pemetrexed,2,PD,Progressed,10.5,15.4,0.0,None/Grade <3
+P0173,Alectinib,1,PD,Progressed,,15.1,4.0,Grade >=3
+p0174,Nivolumab,1L,SD,Progressed,8.4,37.5,0.0,None/Grade <3
+P0175,Pembrolizumab,1L,PR,Not progressed,8.9,28.5,4.0,Grade >=3
+P0176,Osimertinib,1L,PR,Progressed,17.6,12.9,2.0,None/Grade <3
+P0177,Docetaxel,First line,PR,Progressed,4.5,34.4,1.0,None/Grade <3
+P0178,Osimertinib,1L,PR,Progressed,6.5,11.3,1.0,None/Grade <3
+P0179,Alectinib,2,SD,Not progressed,3.5,38.5,4.0,Grade >=3
+P0180,Carboplatin+Pemetrexed,1,PD,Progressed,6.6,18.9,3.0,Grade >=3
+P0181,Pembrolizumab,2L,PD,Progressed,9.2,12.1,2.0,None/Grade <3
+P0182,Docetaxel,1,PR,Not progressed,6.4,30.5,4.0,Grade >=3
+P0183,Docetaxel,2,SD,Not progressed,7.2,18.8,0.0,None/Grade <3
+P0184,Alectinib,1L,PR,Progressed,9.5,17.9,1.0,None/Grade <3
+P0185,Carboplatin+Pemetrexed,1,PR,Not progressed,15.5,27.3,1.0,None/Grade <3
+P0186,Osimertinib,First line,PR,Progressed,5.6,20.6,2.0,None/Grade <3
+P0187,Alectinib,2L,SD,Not progressed,11.2,18.0,1.0,None/Grade <3
+P0188,Carboplatin+Pemetrexed,2L,PD,Progressed,12.7,16.1,4.0,Grade >=3
+P0189,Pembrolizumab,First line,PR,Not progressed,2.4,20.0,0.0,None/Grade <3
+P0190,Pembrolizumab,1,PD,Progressed,5.8,28.7,3.0,Grade >=3
+P0191,Alectinib,2L,PD,Progressed,15.7,10.3,1.0,None/Grade <3
+P0192,Nivolumab,2L,PR,Not progressed,6.0,23.8,1.0,None/Grade <3
+P0193,Pembrolizumab,First line,PR,Not progressed,3.9,26.7,1.0,None/Grade <3
+P0194,Osimertinib,2L,PR,Not progressed,3.9,6.6,2.0,None/Grade <3
+P0195,Carboplatin+Pemetrexed,1,PD,Progressed,8.1,21.5,,None/Grade <3
+P0196,Alectinib,1L,PR,Progressed,9.7,48.1,0.0,None/Grade <3
+P0197,Docetaxel,First line,PD,Progressed,24.1,14.0,0.0,None/Grade <3
+P0198,Osimertinib,2L,SD,Not progressed,11.4,16.9,3.0,Grade >=3
+P0199,Pembrolizumab,First line,PR,Progressed,10.7,33.9,1.0,None/Grade <3
+P0200,Osimertinib,1,PD,Progressed,11.5,25.7,3.0,Grade >=3
+P0201,Nivolumab,2L,PD,Progressed,7.3,21.7,1.0,None/Grade <3
+P0202,Pembrolizumab,2L,PR,Progressed,4.1,17.7,2.0,None/Grade <3
+P0203,Docetaxel,First line,PD,Progressed,9.3,25.3,2.0,None/Grade <3
+P0204,Nivolumab,First line,PD,Progressed,11.1,8.4,0.0,None/Grade <3
+P0205,Docetaxel,2,PR,Not progressed,16.0,40.4,1.0,None/Grade <3
+P0206,Carboplatin+Pemetrexed,1,PR,Progressed,6.3,11.2,1.0,None/Grade <3
+P0207,Pembrolizumab,2L,SD,Not progressed,3.5,8.9,2.0,None/Grade <3
+P0208,Nivolumab,2,SD,Progressed,10.4,9.3,2.0,None/Grade <3
+P0209,Pembrolizumab,2L,PD,Progressed,6.7,11.5,0.0,None/Grade <3
+P0210,Osimertinib,1L,PR,Not progressed,11.3,19.0,0.0,None/Grade <3
+P0211,Carboplatin+Pemetrexed,2L,PD,Progressed,5.8,26.9,2.0,None/Grade <3
+P0212,Pembrolizumab,2,PD,Progressed,7.9,16.0,1.0,None/Grade <3
+P0213,Docetaxel,First line,PD,Progressed,2.8,10.1,3.0,Grade >=3
+P0214,Pembrolizumab,2L,PR,Not progressed,6.5,24.6,4.0,Grade >=3
+P0215,Osimertinib,2L,PR,Progressed,4.6,10.0,0.0,None/Grade <3
+P0216,Alectinib,2L,SD,Not progressed,5.1,23.2,1.0,None/Grade <3
+P0217,Nivolumab,2L,PD,Progressed,10.8,14.3,0.0,None/Grade <3
+P0218,Pembrolizumab,1,SD,Not progressed,7.4,20.2,3.0,Grade >=3
+P0219,Pembrolizumab,2L,PR,Not progressed,12.4,17.6,0.0,None/Grade <3
+P0220,Nivolumab,First line,PR,Not progressed,6.1,14.9,3.0,Grade >=3
+P0221,Nivolumab,2L,PD,Progressed,5.5,43.4,0.0,None/Grade <3
+P0222,Pembrolizumab,1,PR,Progressed,6.4,25.3,3.0,Grade >=3
+P0223,Carboplatin+Pemetrexed,1,PR,Not progressed,,27.2,2.0,None/Grade <3
+P0224,Osimertinib,1L,PD,Progressed,7.6,18.1,3.0,Grade >=3
+P0225,Nivolumab,1L,PR,Progressed,6.3,28.8,3.0,Grade >=3
+P0226,Alectinib,2,PR,Not progressed,18.4,23.2,0.0,None/Grade <3
+P0227,Pembrolizumab,2,PR,Not progressed,7.9,11.4,1.0,None/Grade <3
+P0228,Pembrolizumab,1,SD,Progressed,17.1,22.2,3.0,Grade >=3
+P0229,Pembrolizumab,1L,PR,Not progressed,9.3,29.7,3.0,Grade >=3
+P0230,Docetaxel,2L,SD,Progressed,11.6,14.0,1.0,None/Grade <3
+P0231,Carboplatin+Pemetrexed,First line,PR,Progressed,12.3,19.8,4.0,Grade >=3
+P0232,Carboplatin+Pemetrexed,2,PD,Progressed,7.6,31.8,3.0,Grade >=3
+P0233,Osimertinib,1L,CR,Progressed,4.3,16.1,3.0,Grade >=3
+P0234,Osimertinib,First line,PD,Progressed,9.5,40.7,0.0,None/Grade <3
+P0235,Pembrolizumab,2L,SD,Not progressed,9.9,15.4,,Grade >=3
+P0236,Nivolumab,First line,SD,Not progressed,5.7,18.4,0.0,None/Grade <3
+P0237,Alectinib,1,CR,Not progressed,7.4,14.8,2.0,None/Grade <3
+P0238,Pembrolizumab,2L,PR,Progressed,1.5,70.0,3.0,Grade >=3
+P0239,Nivolumab,2,SD,Not progressed,4.9,12.2,0.0,None/Grade <3
+P0240,Nivolumab,First line,SD,Not progressed,4.5,21.2,2.0,None/Grade <3
+P0241,Alectinib,2L,SD,Not progressed,8.4,23.5,0.0,None/Grade <3
+P0242,Carboplatin+Pemetrexed,1L,PR,Progressed,11.7,24.9,2.0,None/Grade <3
+P0243,Docetaxel,First line,PD,Progressed,5.5,14.6,0.0,None/Grade <3
+P0244,Pembrolizumab,First line,SD,Not progressed,,33.5,2.0,None/Grade <3
+P0245,Nivolumab,1L,SD,Not progressed,8.9,33.0,0.0,None/Grade <3
+P0246,Carboplatin+Pemetrexed,1,PR,Not progressed,,14.3,2.0,None/Grade <3
+P0247,Nivolumab,1,SD,Progressed,6.1,22.3,,None/Grade <3
+P0248,Docetaxel,First line,SD,Progressed,4.4,25.3,0.0,None/Grade <3
+P0249,Pembrolizumab,1,PR,Not progressed,3.2,13.6,3.0,Grade >=3
+P0250,Carboplatin+Pemetrexed,2L,SD,Progressed,15.5,22.0,0.0,None/Grade <3
+P0251,Alectinib,2L,PD,Progressed,8.5,14.5,1.0,None/Grade <3
+P0252,Carboplatin+Pemetrexed,First line,PR,Not progressed,5.9,13.9,0.0,None/Grade <3
+P0253,Osimertinib,1L,SD,Not progressed,14.7,14.3,1.0,None/Grade <3
+P0254,Alectinib,1L,SD,Not progressed,12.2,28.3,3.0,Grade >=3
+P0255,Nivolumab,2L,PD,Progressed,7.0,28.4,2.0,None/Grade <3
+P0256,Docetaxel,1L,SD,Progressed,10.1,39.0,1.0,None/Grade <3
+P0257,Alectinib,First line,SD,Not progressed,5.5,22.5,2.0,None/Grade <3
+p0258,Alectinib,First line,PD,Progressed,11.7,20.7,2.0,None/Grade <3
+P0259,Docetaxel,2L,PR,Progressed,7.1,16.9,0.0,None/Grade <3
+P0260,Carboplatin+Pemetrexed,1,PR,Not progressed,12.7,29.5,2.0,None/Grade <3
+p0261,Pembrolizumab,1,SD,Progressed,5.2,13.3,0.0,None/Grade <3
+P0262,Docetaxel,1L,PR,Progressed,26.5,25.2,2.0,None/Grade <3
+P0263,Pembrolizumab,2,PR,Progressed,7.0,16.7,0.0,None/Grade <3
+P0264,Pembrolizumab,2L,SD,Not progressed,12.5,7.7,4.0,Grade >=3
+P0265,Nivolumab,2L,PD,Progressed,4.6,34.2,1.0,None/Grade <3
+P0266,Pembrolizumab,1,PD,Progressed,6.4,36.3,0.0,None/Grade <3
+P0267,Carboplatin+Pemetrexed,2,PR,Not progressed,7.9,39.4,2.0,None/Grade <3
+P0268,Alectinib,1,PR,Progressed,12.5,19.6,2.0,None/Grade <3
+P0269,Osimertinib,First line,PR,Not progressed,8.5,18.9,2.0,None/Grade <3
+P0270,Carboplatin+Pemetrexed,First line,CR,Not progressed,3.2,46.2,2.0,None/Grade <3
+P0271,Carboplatin+Pemetrexed,2L,PD,Progressed,14.1,16.3,0.0,None/Grade <3
+P0272,Osimertinib,1L,PD,Progressed,4.6,14.3,2.0,None/Grade <3
+P0273,Carboplatin+Pemetrexed,2L,PD,Progressed,10.8,20.5,0.0,None/Grade <3
+P0274,Alectinib,2L,SD,Not progressed,2.6,15.1,2.0,None/Grade <3
+P0275,Alectinib,2L,SD,Not progressed,8.6,21.3,0.0,None/Grade <3
+P0276,Osimertinib,First line,PR,Progressed,12.8,10.7,0.0,None/Grade <3
+P0277,Osimertinib,First line,PR,Progressed,7.5,15.0,1.0,None/Grade <3
+P0278,Nivolumab,2L,PD,Progressed,7.2,27.1,2.0,None/Grade <3
+P0279,Alectinib,First line,PD,Progressed,11.9,22.7,1.0,None/Grade <3
+P0280,Pembrolizumab,2,PR,Progressed,9.9,14.2,0.0,None/Grade <3
+P0281,Osimertinib,First line,PD,Progressed,8.7,19.9,1.0,None/Grade <3
+P0282,Osimertinib,First line,PR,Not progressed,18.3,19.4,2.0,None/Grade <3
+P0283,Carboplatin+Pemetrexed,1L,SD,Not progressed,5.2,19.7,2.0,None/Grade <3
+P0284,Nivolumab,1,PR,Progressed,7.4,15.1,0.0,None/Grade <3
+P0285,Carboplatin+Pemetrexed,First line,SD,Not progressed,18.3,27.5,0.0,None/Grade <3
+P0286,Docetaxel,2L,SD,Not progressed,5.1,21.0,4.0,Grade >=3
+P0287,Pembrolizumab,1L,SD,Not progressed,10.3,30.5,4.0,Grade >=3
+P0288,Osimertinib,1,PR,Progressed,19.9,23.7,0.0,None/Grade <3
+P0289,Osimertinib,1L,SD,Not progressed,8.4,27.4,2.0,None/Grade <3
+P0290,Osimertinib,First line,PD,Progressed,25.6,29.4,1.0,None/Grade <3
+P0291,Carboplatin+Pemetrexed,2L,SD,Not progressed,7.1,25.5,0.0,None/Grade <3
+P0292,Nivolumab,First line,PD,Progressed,1.4,36.9,2.0,None/Grade <3
+P0293,Nivolumab,2,PR,Progressed,6.7,32.2,2.0,None/Grade <3
+P0294,Nivolumab,1,PR,Not progressed,7.5,23.3,3.0,Grade >=3
+P0295,Nivolumab,1,SD,Progressed,3.6,17.7,2.0,None/Grade <3
+P0296,Osimertinib,1,PR,Progressed,,10.7,1.0,None/Grade <3
+P0297,Carboplatin+Pemetrexed,1L,PD,Progressed,28.1,27.1,0.0,None/Grade <3
+P0298,Osimertinib,1L,PD,Progressed,5.2,23.1,0.0,None/Grade <3
+P0299,Alectinib,First line,SD,Progressed,10.9,70.0,2.0,None/Grade <3
+P0300,Osimertinib,2,PR,Progressed,5.3,20.2,0.0,None/Grade <3
