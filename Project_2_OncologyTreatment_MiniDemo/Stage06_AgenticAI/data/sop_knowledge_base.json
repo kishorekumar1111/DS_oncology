@@ -1,6 +1,0 @@
-{
-  "HIGH_RISK_RULE": "A High toxicity-risk patient MUST receive a dose-reduced regimen and an urgent tumor board review before treatment starts.",
-  "RENAL_SAFE_RULE": "NEVER assign a nephrotoxic drug (renal_safe=False) to a patient with creatinine above 2.5 mg/dL (severe renal impairment) - select a renal-safe alternative even if it means a less potent regimen.",
-  "TIE_BREAK_RULE": "If two High-risk patients compete for the same biomarker-matched therapy slot, prioritize the patient with the HIGHER tumor mutation burden (more aggressive disease), unless the RENAL_SAFE_RULE overrides it.",
-  "OVERRIDE_RULE": "A human oncologist can pause or override any agent decision at any time."
-}

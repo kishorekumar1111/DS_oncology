@@ -1,6 +1,0 @@
-resource_type,resource_id,drug_name,biomarker_target,status,renal_safe
-Therapy,TX-1,Osimertinib,EGFR,Available,True
-Therapy,TX-2,Sotorasib,KRAS,Available,False
-Therapy,TX-3,Alectinib,ALK,Available,True
-Trial,TR-1,NCT-EGFR-2201,EGFR,Available,True
-Trial,TR-2,NCT-KRAS-3305,KRAS,Available,False
