@@ -1,0 +1,11 @@
+patient_id,gene_mutation,tumor_mutation_burden,ctdna_level_ng_ml,creatinine_mg_dl,alt_u_l,age,risk_label
+P1,EGFR,4.2,1.1,0.9,22.0,58,Low
+P2,KRAS,9.8,3.4,1.1,35.0,64,Moderate
+P3,ALK,3.1,0.8,0.8,18.0,49,Low
+P4,EGFR,12.5,6.2,1.6,60.0,71,High
+P5,ROS1,2.9,0.6,0.9,20.0,45,Low
+P6,KRAS,15.7,8.9,2.1,75.0,68,High
+P7,BRAF,6.4,2.0,1.0,28.0,55,Moderate
+P8,EGFR,11.1,5.7,1.4,34.625,66,High
+P9,MET,3.8,1.0,0.9,19.0,52,Low
+P10,KRAS,14.2,7.5,1.8,34.625,73,High

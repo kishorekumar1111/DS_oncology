@@ -1,0 +1,11 @@
+{
+  "patient": "P4",
+  "gene": "EGFR",
+  "risk": "High",
+  "subtasks": [
+    "Check EGFR-targeted therapy inventory for P4",
+    "Reserve EGFR-targeted therapy for P4 IMMEDIATELY",
+    "Check renal/hepatic safety profile before dosing P4",
+    "Escalate P4 to tumor board for urgent review"
+  ]
+}

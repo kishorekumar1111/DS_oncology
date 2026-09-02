@@ -1,0 +1,11 @@
+note_id,message,urgency_label,clean_message
+N1,"Patient with EGFR mutation reports severe rash and diarrhea after 80mg osimertinib dose, needs review now",Urgent,"patient with egfr mutation reports severe rash and diarrhea after 80mg osimertinib dose, needs review now"
+N2,"Routine follow-up, patient tolerating pembrolizumab 200mg well, no new symptoms",Routine,"routine follow-up, patient tolerating pembrolizumab 200mg well, no new symptoms"
+N3,"Zone note: patient KRAS positive, mild fatigue noted, continue current dosage",Routine,"zone note: patient kras positive, mild fatigue noted, continue current dosage"
+N4,"Urgent: grade 3 pneumonitis suspected after carboplatin 300mg infusion, hold treatment immediately",Urgent,"urgent: grade 3 pneumonitis suspected after carboplatin 300mg infusion, hold treatment immediately"
+N5,"Patient stable on erlotinib 150mg, labs unremarkable, next visit in 4 weeks",Routine,"patient stable on erlotinib 150mg, labs unremarkable, next visit in 4 weeks"
+N6,"Emergency, ALK positive patient developed neutropenia and high fever after crizotinib 250mg, send to ER",Urgent,"emergency, alk positive patient developed neutropenia and high fever after crizotinib 250mg, send to er"
+N7,"Mild nausea reported after osimertinib 80mg, monitor at home, no immediate action needed",Routine,"mild nausea reported after osimertinib 80mg, monitor at home, no immediate action needed"
+N8,"Critical hepatotoxicity noted, ALT elevated sharply after erlotinib 150mg, discontinue drug now",Urgent,"critical hepatotoxicity noted, alt elevated sharply after erlotinib 150mg, discontinue drug now"
+N9,"Patient with BRAF mutation doing well on dabrafenib 150mg, no adverse events",Routine,"patient with braf mutation doing well on dabrafenib 150mg, no adverse events"
+N10,"Severe diarrhea and dehydration after pembrolizumab 200mg, patient needs urgent IV fluids",Urgent,"severe diarrhea and dehydration after pembrolizumab 200mg, patient needs urgent iv fluids"
