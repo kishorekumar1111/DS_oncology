@@ -8,14 +8,17 @@ Input : master_dataset_300.csv (300 NSCLC patients, 24 columns)
 Output: master_dataset_300_CLEANED.csv + eda_report.md
 """
 
+import os
 import pandas as pd
 import numpy as np
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 200)
-IN_PATH = r"C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\DS_oncology\Stage01_ML\Data\master_dataset_300.csv"
-OUT_CSV  = r"C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\master_dataset_300_CLEANED.csv"
-OUT_REPORT = r"C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\eda_report.md"
+# Use workspace-relative paths so the script runs regardless of user home directory
+BASE_DIR = os.path.dirname(__file__)
+IN_PATH = os.path.join(BASE_DIR, "Data", "master_dataset_300.csv")
+OUT_CSV  = os.path.join(BASE_DIR, "Data", "master_dataset_300_CLEANED.csv")
+OUT_REPORT = os.path.join(BASE_DIR, "eda_report.md")
 
 report_lines = []
 def log(msg=""):

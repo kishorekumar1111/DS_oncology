@@ -137,6 +137,6 @@ patient_id  pfs_months  overall_survival_months progression_status
 ## STEP 4 — Verified Data (output)
 
 
-Cleaned dataset written: C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\master_dataset_300_CLEANED.csv  (300 rows x 25 cols)
+Cleaned dataset written: C:\Users\admin\ds cp2\DS_oncology\Stage01_ML\Data\master_dataset_300_CLEANED.csv  (300 rows x 25 cols)
 
 New columns added: line_of_therapy_clean, pfs_gt_os_flag, alt_low_trust_flag (age un-faked to NaN where age_missing=1)

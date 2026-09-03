@@ -3,6 +3,7 @@ EDA ENGINEER - Visual Report (Stage 01)
 Generates correlation heatmap, biomarker leaderboard, distributions,
 and problem-flag visuals from the CLEANED oncology dataset.
 """
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,9 +11,12 @@ import matplotlib
 matplotlib.rcParams['figure.dpi'] = 140
 matplotlib.rcParams['font.size'] = 10
 
-df = pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\master_dataset_300_CLEANED (1).csv')
+BASE_DIR = os.path.dirname(__file__)
+DATA_DIR = os.path.join(BASE_DIR, "Data")
+df = pd.read_csv(os.path.join(DATA_DIR, 'master_dataset_300_CLEANED.csv'))
 
-OUT = r"C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA"
+OUT = os.path.join(BASE_DIR, 'plots')
+os.makedirs(OUT, exist_ok=True)
 
 # color palette
 navy = "#0B2545"
@@ -45,7 +49,7 @@ cbar = plt.colorbar(im, ax=ax, shrink=0.8)
 cbar.set_label('Pearson correlation')
 ax.set_title("Correlation Matrix — Clinical & Genomic Variables\n(alt_u_l excluded — flagged low-trust)", fontsize=12, fontweight='bold', color=navy)
 plt.tight_layout()
-plt.savefig(OUT+"01_correlation_heatmap.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "01_correlation_heatmap.png"), bbox_inches='tight')
 plt.close()
 
 # ----------------------------------------------------------------------
@@ -68,7 +72,7 @@ ax.set_title("Biomarker Leaderboard\n(all correlations weak — no single biomar
 for i,v in enumerate(leaderboard.values):
     ax.text(v + (0.003 if v>=0 else -0.003), i, f"{v:.3f}", va='center', ha='left' if v>=0 else 'right', fontsize=9)
 plt.tight_layout()
-plt.savefig(OUT+"02_biomarker_leaderboard.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "02_biomarker_leaderboard.png"), bbox_inches='tight')
 plt.close()
 
 # ----------------------------------------------------------------------
@@ -96,7 +100,7 @@ for i,v in enumerate(resp_counts.values):
     axes[1].text(i, v+1, int(v), ha='center', fontsize=9)
 
 plt.tight_layout()
-plt.savefig(OUT+"03_toxicity_response_distributions.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "03_toxicity_response_distributions.png"), bbox_inches='tight')
 plt.close()
 
 # ----------------------------------------------------------------------
@@ -111,7 +115,7 @@ ax.set_title("Progression Status by Treatment", fontweight='bold', color=navy)
 ax.set_xlabel("Patients")
 ax.legend(title="", loc='lower right')
 plt.tight_layout()
-plt.savefig(OUT+"04_treatment_vs_progression.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "04_treatment_vs_progression.png"), bbox_inches='tight')
 plt.close()
 
 # ----------------------------------------------------------------------
@@ -130,13 +134,13 @@ ax.set_ylabel("Progression-Free Survival (months)")
 ax.set_title("Data Quality Check: PFS cannot exceed OS\n28 patients violate this (above the dashed line)", fontweight='bold', color=navy)
 ax.legend(loc='upper left', fontsize=9)
 plt.tight_layout()
-plt.savefig(OUT+"05_pfs_os_problem_flag.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "05_pfs_os_problem_flag.png"), bbox_inches='tight')
 plt.close()
 
 # ----------------------------------------------------------------------
 # 6. AGE distribution before vs after cleaning (fake 66.0 spike removed)
 # ----------------------------------------------------------------------
-orig = pd.read_csv(r'C:\Users\HP\OneDrive\Desktop\ONCOLOGY EDA\master_dataset_300_CLEANED (1).csv')
+orig = pd.read_csv(os.path.join(DATA_DIR, 'master_dataset_300.csv'))
 fig, axes = plt.subplots(1,2, figsize=(11,4.5))
 axes[0].hist(orig['age'], bins=20, color=grey, edgecolor='white')
 axes[0].axvline(66.0, color=red, linestyle='--', linewidth=1.5, label='Fake spike at 66.0 (n=14)')
@@ -147,7 +151,7 @@ axes[1].hist(df['age'].dropna(), bins=20, color=teal, edgecolor='white')
 axes[1].set_title("AFTER — Age (fake values removed → NaN)", fontweight='bold', color=navy)
 axes[1].set_xlabel("Age")
 plt.tight_layout()
-plt.savefig(OUT+"06_age_before_after_cleaning.png", bbox_inches='tight')
+plt.savefig(os.path.join(OUT, "06_age_before_after_cleaning.png"), bbox_inches='tight')
 plt.close()
 
 print("All plots saved.")

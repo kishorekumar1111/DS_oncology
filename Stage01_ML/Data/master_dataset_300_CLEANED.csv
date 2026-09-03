@@ -1,0 +1,301 @@
+patient_id,age,sex,smoking_status,histology,gene_mutation,mutation_count,tumor_mutation_burden,ctdna_level_ng_ml,creatinine_mg_dl,alt_u_l,max_variant_allele_fraction,treatment_name,line_of_therapy,best_response,progression_status,pfs_months,overall_survival_months,toxicity_grade,toxicity_event,toxicity_event_binary,age_missing,line_of_therapy_clean,pfs_gt_os_flag,alt_low_trust_flag
+P0001,55.0,Female,False,Adenocarcinoma,KRAS,1,4.32,5.94,1.19,8.0,0.36,Docetaxel,2,SD,Progressed,11.9,16.6,1.0,None/Grade <3,0.0,0,2L,0,1
+P0002,49.0,Male,True,Adenocarcinoma,"MET, PIK3CA",2,2.59,3.05,1.14,8.0,0.432,Pembrolizumab,2,PR,Not progressed,17.7,34.8,3.0,Grade >=3,1.0,0,2L,0,1
+P0003,62.0,Female,True,NSCLC NOS,"MET, PIK3CA, ROS1",3,3.46,0.62,1.26,8.0,0.593,Alectinib,2L,SD,Not progressed,9.5,30.8,0.0,None/Grade <3,0.0,0,2L,0,1
+P0004,77.0,Male,False,Squamous,"EGFR, KRAS",2,4.44,11.91,0.73,8.0,0.611,Pembrolizumab,First line,SD,Progressed,6.2,23.6,3.0,Grade >=3,1.0,0,1L,0,1
+P0005,64.0,Female,False,Squamous,"BRAF, KRAS",2,2.59,14.26,0.88,8.0,0.161,Carboplatin+Pemetrexed,1L,PR,Not progressed,6.2,31.7,2.0,None/Grade <3,0.0,0,1L,0,1
+P0006,61.0,Female,True,Adenocarcinoma,"ALK, STK11",2,8.39,1.82,1.37,8.0,0.573,Nivolumab,2L,SD,Progressed,3.4,23.7,3.0,Grade >=3,1.0,0,2L,0,1
+P0007,71.0,Female,True,Squamous,ALK,1,13.98,7.19,1.14,8.0,0.176,Pembrolizumab,2,SD,Progressed,4.3,20.1,1.0,None/Grade <3,0.0,0,2L,0,1
+P0008,57.0,Female,False,Adenocarcinoma,"MET, ROS1",2,6.05,2.5,1.22,8.0,0.526,Alectinib,1,SD,Progressed,1.7,15.3,0.0,None/Grade <3,0.0,0,1L,0,1
+P0009,,Male,False,Adenocarcinoma,KRAS,1,6.05,1.23,1.53,8.0,0.469,Docetaxel,1,PR,Not progressed,3.3,9.0,4.0,Grade >=3,1.0,1,1L,0,1
+P0010,79.0,Male,True,Squamous,"BRAF, KEAP1",2,16.78,5.53,0.87,8.0,0.207,Pembrolizumab,2L,PR,Progressed,19.6,39.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0011,82.0,Female,True,Adenocarcinoma,EGFR,1,2.59,4.06,0.95,8.0,0.512,Alectinib,1,PR,Not progressed,3.9,9.6,0.0,None/Grade <3,0.0,0,1L,0,1
+P0012,,Female,False,NSCLC NOS,ALK,1,1.73,4.46,1.24,8.0,0.163,Nivolumab,2L,PR,Progressed,16.5,15.3,3.0,Grade >=3,1.0,1,2L,1,1
+P0013,60.0,Male,True,NSCLC NOS,ROS1,1,5.19,3.03,1.07,8.0,0.316,Carboplatin+Pemetrexed,First line,SD,Not progressed,14.6,18.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0014,77.0,Male,False,NSCLC NOS,ROS1,1,6.05,11.18,1.21,8.0,0.219,Nivolumab,2,SD,Progressed,6.5,13.6,3.0,Grade >=3,1.0,0,2L,0,1
+P0015,61.0,Female,False,Squamous,KRAS,1,2.59,2.35,1.01,8.0,0.073,Alectinib,First line,SD,Not progressed,13.3,14.4,0.0,None/Grade <3,0.0,0,1L,0,1
+P0016,45.0,Female,False,Squamous,"BRAF, MET",2,11.19,0.68,1.11,8.0,0.431,Docetaxel,2,PR,Not progressed,7.6,39.2,2.0,None/Grade <3,0.0,0,2L,0,1
+P0017,70.0,Female,False,Squamous,"BRAF, ROS1",2,2.59,2.38,0.61,8.0,0.401,Nivolumab,1L,SD,Progressed,10.6,27.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0018,,Female,True,Squamous,"EGFR, KRAS, TP53",3,0.1,1.67,1.05,8.0,0.545,Carboplatin+Pemetrexed,1L,PR,Progressed,4.8,21.2,0.0,None/Grade <3,0.0,1,1L,0,1
+P0019,72.0,Female,False,NSCLC NOS,"BRAF, STK11",2,1.96,4.36,1.13,8.0,0.636,Osimertinib,First line,PR,Not progressed,8.0,8.2,1.0,None/Grade <3,0.0,0,1L,0,1
+P0020,,Female,False,Adenocarcinoma,"BRAF, MET",2,8.39,6.08,0.9,8.0,0.297,Osimertinib,First line,PR,Progressed,16.1,26.0,1.0,None/Grade <3,0.0,1,1L,0,1
+P0021,72.0,Male,False,Adenocarcinoma,"KEAP1, MET",2,2.8,10.03,1.3,8.0,0.572,Osimertinib,2,SD,Progressed,14.1,17.4,0.0,None/Grade <3,0.0,0,2L,0,1
+P0022,84.0,Female,False,NSCLC NOS,"KEAP1, ROS1, STK11",3,2.59,5.71,1.1,8.0,0.485,Docetaxel,First line,SD,Progressed,14.1,34.5,,Grade >=3,,0,1L,0,1
+P0023,71.0,Male,False,Adenocarcinoma,TP53,1,6.92,2.41,0.68,8.0,0.251,Carboplatin+Pemetrexed,1L,PD,Progressed,16.7,22.6,2.0,None/Grade <3,0.0,0,1L,0,1
+P0024,56.0,Male,False,NSCLC NOS,MET,1,3.46,0.58,1.11,8.0,0.609,Alectinib,2,CR,Not progressed,26.1,5.4,1.0,None/Grade <3,0.0,0,2L,1,1
+P0025,81.0,Male,True,Adenocarcinoma,ALK,1,5.59,11.4,1.24,8.0,0.409,Osimertinib,1L,PD,Progressed,6.1,31.9,4.0,Grade >=3,1.0,0,1L,0,1
+P0026,55.0,Male,False,Adenocarcinoma,KEAP1,1,13.84,2.58,0.8,8.0,0.622,Alectinib,1L,SD,Not progressed,8.5,33.3,2.0,None/Grade <3,0.0,0,1L,0,1
+P0027,68.0,Female,True,,"BRAF, MET",2,5.19,5.99,0.94,8.0,0.626,Pembrolizumab,2L,PR,Progressed,6.8,18.3,0.0,None/Grade <3,0.0,0,2L,0,1
+P0028,52.0,Female,False,Squamous,"EGFR, MET",2,0.1,16.71,1.27,8.0,0.137,Osimertinib,1,PR,Progressed,18.3,18.2,1.0,None/Grade <3,0.0,0,1L,1,1
+P0029,84.0,Male,False,Adenocarcinoma,BRAF,1,3.46,0.48,0.93,8.0,0.17,Alectinib,First line,PR,Not progressed,4.3,23.4,3.0,Grade >=3,1.0,0,1L,0,1
+P0030,45.0,Female,False,Adenocarcinoma,"BRAF, MET",2,3.46,3.79,1.13,12.9,0.637,Pembrolizumab,First line,CR,Not progressed,3.5,13.9,1.0,None/Grade <3,0.0,0,1L,0,0
+P0031,61.0,Male,True,Adenocarcinoma,"BRAF, ROS1, TP53",3,8.65,16.39,1.28,8.0,0.566,Osimertinib,2L,PD,Progressed,6.1,26.0,4.0,Grade >=3,1.0,0,2L,0,1
+P0032,85.0,Male,False,Adenocarcinoma,"ALK, KRAS",2,22.37,2.48,1.42,8.0,0.643,Carboplatin+Pemetrexed,First line,PD,Progressed,9.3,21.7,,None/Grade <3,,0,1L,0,1
+P0033,56.0,Female,True,Adenocarcinoma,"BRAF, TP53",2,13.98,2.44,0.85,8.2,0.432,Alectinib,1L,SD,Not progressed,8.8,26.7,0.0,None/Grade <3,0.0,0,1L,0,0
+P0034,69.0,Male,True,NSCLC NOS,"BRAF, EGFR",2,1.73,14.24,0.81,8.0,0.593,Docetaxel,First line,PR,Progressed,3.0,33.8,0.0,None/Grade <3,0.0,0,1L,0,1
+P0035,62.0,Female,True,Squamous,STK11,1,8.39,11.71,1.39,8.0,0.073,Carboplatin+Pemetrexed,2,PD,Progressed,5.0,36.5,2.0,None/Grade <3,0.0,0,2L,0,1
+P0036,74.0,Male,False,NSCLC NOS,PIK3CA,1,10.38,2.31,1.29,8.0,0.376,Carboplatin+Pemetrexed,1L,SD,Not progressed,5.9,31.7,4.0,Grade >=3,1.0,0,1L,0,1
+P0037,78.0,Female,False,NSCLC NOS,"KEAP1, MET",2,2.8,8.14,1.45,8.0,0.445,Docetaxel,1,PR,Not progressed,2.4,22.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0038,69.0,Male,False,Squamous,"ALK, EGFR",2,5.19,13.04,0.92,8.6,0.502,Alectinib,1,SD,Progressed,16.2,22.5,2.0,None/Grade <3,0.0,0,1L,0,0
+P0039,67.0,Female,False,NSCLC NOS,"MET, STK11",2,5.19,2.53,1.21,8.0,0.58,Alectinib,2,PR,Not progressed,6.0,36.2,2.0,None/Grade <3,0.0,0,2L,0,1
+P0040,,Male,True,Adenocarcinoma,"KEAP1, MET, PIK3CA",3,2.59,1.97,0.56,8.0,0.319,Alectinib,2L,PR,Progressed,6.3,32.8,1.0,None/Grade <3,0.0,1,2L,0,1
+P0041,69.0,Female,True,Squamous,"KEAP1, TP53",2,0.1,3.92,0.82,8.0,0.256,Pembrolizumab,1,SD,Not progressed,13.2,13.0,3.0,Grade >=3,1.0,0,1L,1,1
+P0042,48.0,Female,True,NSCLC NOS,TP53,1,5.59,1.8,1.04,8.0,0.528,Osimertinib,2L,PR,Not progressed,4.3,13.3,3.0,Grade >=3,1.0,0,2L,0,1
+P0043,62.0,Male,True,Adenocarcinoma,ROS1,1,10.38,0.89,1.11,8.0,0.502,Alectinib,1,SD,Progressed,25.9,9.9,0.0,None/Grade <3,0.0,0,1L,1,1
+P0044,79.0,Female,False,NSCLC NOS,"KRAS, ROS1",2,11.19,4.86,1.27,8.0,0.46,Alectinib,1L,SD,Progressed,17.8,11.8,0.0,None/Grade <3,0.0,0,1L,1,1
+P0045,65.0,Female,True,Adenocarcinoma,"ALK, PIK3CA",2,8.65,2.14,0.55,8.0,0.329,Osimertinib,2L,PR,Progressed,7.7,36.7,2.0,None/Grade <3,0.0,0,2L,0,1
+P0046,54.0,Male,False,NSCLC NOS,"BRAF, MET",2,7.78,3.38,1.29,8.0,0.453,Osimertinib,2L,PR,Progressed,6.2,12.6,3.0,Grade >=3,1.0,0,2L,0,1
+P0047,54.0,Male,True,NSCLC NOS,BRAF,1,9.51,1.95,0.98,8.0,0.629,Carboplatin+Pemetrexed,1L,SD,Progressed,11.4,19.8,0.0,None/Grade <3,0.0,0,1L,0,1
+P0048,58.0,Female,True,Squamous,"BRAF, KRAS",2,0.86,6.42,1.23,8.0,0.287,Docetaxel,2,SD,Not progressed,4.5,32.6,3.0,Grade >=3,1.0,0,2L,0,1
+P0049,65.0,Female,True,Adenocarcinoma,"MET, TP53",2,7.78,1.55,0.9,8.0,0.19,Carboplatin+Pemetrexed,First line,PR,Progressed,4.8,16.4,0.0,None/Grade <3,0.0,0,1L,0,1
+P0050,76.0,Female,False,Adenocarcinoma,PIK3CA,1,3.46,5.72,0.58,8.0,0.448,Nivolumab,First line,PD,Progressed,4.9,25.5,0.0,None/Grade <3,0.0,0,1L,0,1
+P0051,57.0,Female,False,Squamous,BRAF,1,2.59,8.74,0.89,8.0,0.362,Nivolumab,1,CR,Not progressed,14.6,12.1,4.0,Grade >=3,1.0,0,1L,1,1
+P0052,73.0,Male,True,Adenocarcinoma,"KRAS, MET",2,5.19,14.47,1.39,8.0,0.546,Pembrolizumab,2,PR,Progressed,3.4,17.2,1.0,None/Grade <3,0.0,0,2L,0,1
+P0053,76.0,Female,False,Squamous,"STK11, TP53",2,2.8,0.76,0.63,8.2,0.446,Docetaxel,First line,CR,Progressed,12.5,28.3,2.0,None/Grade <3,0.0,0,1L,0,0
+P0054,60.0,Male,True,,BRAF,1,1.73,2.52,0.81,8.0,0.482,Nivolumab,First line,PR,Not progressed,8.4,18.4,2.0,None/Grade <3,0.0,0,1L,0,1
+P0055,52.0,Female,False,Squamous,"BRAF, EGFR",2,2.8,0.56,1.0,8.0,0.621,Carboplatin+Pemetrexed,First line,PR,Not progressed,18.9,35.8,0.0,None/Grade <3,0.0,0,1L,0,1
+P0056,67.0,Male,True,NSCLC NOS,MET,1,5.19,11.52,1.2,8.0,0.551,Pembrolizumab,2L,PR,Not progressed,12.1,17.1,1.0,None/Grade <3,0.0,0,2L,0,1
+P0057,56.0,Male,True,NSCLC NOS,TP53,1,19.89,12.2,1.47,8.0,0.526,Alectinib,2,PR,Progressed,27.4,14.9,1.0,None/Grade <3,0.0,0,2L,1,1
+P0058,69.0,Male,True,NSCLC NOS,"KEAP1, PIK3CA, ROS1",3,11.19,1.32,1.15,8.0,0.606,Alectinib,2L,SD,Not progressed,,11.9,3.0,Grade >=3,1.0,0,2L,0,1
+P0059,67.0,Male,False,Squamous,KEAP1,1,3.46,4.78,0.74,8.0,0.515,Alectinib,First line,PD,Progressed,5.7,15.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0060,77.0,Male,False,Adenocarcinoma,ALK,1,0.1,5.95,1.35,8.0,0.324,Docetaxel,2L,PD,Progressed,13.6,28.6,1.0,None/Grade <3,0.0,0,2L,0,1
+P0061,82.0,Female,False,NSCLC NOS,KEAP1,1,5.59,15.49,0.8,8.0,0.613,Carboplatin+Pemetrexed,2L,PR,Not progressed,3.4,15.5,1.0,None/Grade <3,0.0,0,2L,0,1
+P0062,75.0,Female,True,Squamous,BRAF,1,0.86,4.06,1.08,8.0,0.237,Nivolumab,1,PR,Progressed,4.7,26.9,4.0,Grade >=3,1.0,0,1L,0,1
+P0063,77.0,Male,True,Squamous,KEAP1,1,5.59,3.3,1.02,8.0,0.425,Nivolumab,First line,PD,Progressed,6.1,34.6,2.0,None/Grade <3,0.0,0,1L,0,1
+P0064,68.0,Female,True,Squamous,"ALK, TP53",2,2.8,1.69,1.19,8.0,0.542,Docetaxel,1,PR,Progressed,3.1,38.9,3.0,Grade >=3,1.0,0,1L,0,1
+P0065,48.0,Male,True,NSCLC NOS,KRAS,1,4.32,4.49,1.04,8.0,0.467,Nivolumab,2,SD,Progressed,12.5,18.0,0.0,None/Grade <3,0.0,0,2L,0,1
+P0066,75.0,Female,False,Squamous,KRAS,1,2.59,4.18,0.91,8.0,0.386,Carboplatin+Pemetrexed,2,PD,Progressed,5.6,30.4,3.0,Grade >=3,1.0,0,2L,0,1
+P0067,53.0,Female,False,Adenocarcinoma,"EGFR, STK11",2,13.98,1.53,1.16,8.0,0.31,Carboplatin+Pemetrexed,1,PD,Progressed,5.6,10.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0068,66.0,Female,True,Adenocarcinoma,"ALK, ROS1, TP53",3,5.87,3.57,0.64,8.0,0.471,Docetaxel,2,PR,Not progressed,8.1,8.9,0.0,None/Grade <3,0.0,0,2L,0,1
+P0069,70.0,Female,False,Adenocarcinoma,"ALK, MET",2,16.78,4.71,1.13,8.0,0.257,Pembrolizumab,First line,PR,Progressed,3.3,13.3,2.0,None/Grade <3,0.0,0,1L,0,1
+P0070,75.0,Female,True,Adenocarcinoma,"KEAP1, PIK3CA",2,2.59,1.58,1.16,8.0,0.411,Pembrolizumab,2L,PR,Progressed,16.5,31.1,3.0,Grade >=3,1.0,0,2L,0,1
+P0071,77.0,Female,True,Adenocarcinoma,PIK3CA,1,0.1,23.45,0.63,8.0,0.606,Docetaxel,First line,PD,Progressed,8.3,17.5,3.0,Grade >=3,1.0,0,1L,0,1
+P0072,79.0,Male,True,Adenocarcinoma,"MET, TP53",2,3.91,7.31,0.74,8.0,0.508,Nivolumab,1L,PR,Not progressed,10.9,23.9,0.0,None/Grade <3,0.0,0,1L,0,1
+P0073,35.0,Female,False,Squamous,KRAS,1,11.19,5.99,1.1,8.0,0.621,Docetaxel,2,SD,Progressed,5.0,22.4,4.0,Grade >=3,1.0,0,2L,0,1
+P0074,70.0,Male,True,NSCLC NOS,"KRAS, TP53",2,8.65,3.98,0.95,8.0,0.556,Carboplatin+Pemetrexed,2,SD,Progressed,9.0,39.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0075,59.0,Male,True,Adenocarcinoma,"KRAS, TP53",2,10.38,8.7,0.63,8.0,0.341,Carboplatin+Pemetrexed,1L,SD,Progressed,2.0,19.9,2.0,None/Grade <3,0.0,0,1L,0,1
+P0076,59.0,Male,False,Adenocarcinoma,"KEAP1, KRAS, PIK3CA",3,5.59,9.68,0.82,8.0,0.548,Nivolumab,1L,CR,Not progressed,18.3,13.4,2.0,None/Grade <3,0.0,0,1L,1,1
+P0077,69.0,Female,False,Adenocarcinoma,KEAP1,1,1.73,1.16,1.55,8.0,0.423,Alectinib,1L,PR,Progressed,10.0,14.1,0.0,None/Grade <3,0.0,0,1L,0,1
+P0078,90.0,Male,False,NSCLC NOS,"EGFR, ROS1",2,6.92,13.16,1.1,8.0,0.454,Docetaxel,1L,PD,Progressed,1.0,15.5,4.0,Grade >=3,1.0,0,1L,0,1
+P0079,44.0,Female,False,Adenocarcinoma,EGFR,1,7.78,2.73,0.87,8.0,0.618,Docetaxel,1,PR,Progressed,12.2,10.3,2.0,None/Grade <3,0.0,0,1L,1,1
+P0080,71.0,Female,True,,"KRAS, STK11",2,11.19,10.98,1.23,8.0,0.341,Nivolumab,1,PD,Progressed,12.5,18.8,0.0,None/Grade <3,0.0,0,1L,0,1
+P0081,69.0,Female,False,Adenocarcinoma,KRAS,1,2.59,7.5,0.88,8.0,0.541,Docetaxel,2L,PD,Progressed,11.5,14.2,2.0,None/Grade <3,0.0,0,2L,0,1
+P0082,44.0,Female,True,Adenocarcinoma,"ALK, MET",2,2.59,0.75,0.65,8.0,0.439,Alectinib,First line,SD,Not progressed,13.6,32.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0083,72.0,Female,False,Squamous,PIK3CA,1,22.37,1.36,0.73,8.0,0.24,Pembrolizumab,First line,PR,Not progressed,4.0,16.4,2.0,None/Grade <3,0.0,0,1L,0,1
+P0084,70.0,Female,False,NSCLC NOS,ROS1,1,8.39,9.4,0.57,8.0,0.264,Osimertinib,1,PD,Progressed,10.0,26.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0085,84.0,Female,True,Squamous,"PIK3CA, STK11",2,3.91,9.79,1.39,8.0,0.215,Pembrolizumab,2L,PD,Progressed,4.7,21.6,1.0,None/Grade <3,0.0,0,2L,0,1
+P0086,77.0,Female,True,NSCLC NOS,"ALK, KEAP1, KRAS",3,0.86,4.66,1.23,8.0,0.365,Alectinib,2L,PD,Progressed,9.5,23.6,3.0,Grade >=3,1.0,0,2L,0,1
+P0087,64.0,Female,True,Adenocarcinoma,"EGFR, ROS1",2,6.05,4.6,1.3,8.0,0.487,Alectinib,1,PR,Not progressed,3.3,19.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0088,70.0,Female,True,Adenocarcinoma,"ALK, KEAP1",2,6.92,6.11,1.25,8.0,0.44,Carboplatin+Pemetrexed,2,SD,Progressed,12.4,29.7,0.0,None/Grade <3,0.0,0,2L,0,1
+P0089,72.0,Female,True,NSCLC NOS,"ALK, ROS1",2,1.73,2.12,1.02,8.0,0.566,Docetaxel,2L,SD,Not progressed,13.7,11.8,2.0,None/Grade <3,0.0,0,2L,1,1
+P0090,54.0,Male,False,Adenocarcinoma,"EGFR, MET, STK11",3,5.19,4.67,0.87,8.0,0.636,Osimertinib,1,CR,Not progressed,17.4,26.2,3.0,Grade >=3,1.0,0,1L,0,1
+P0091,71.0,Male,False,NSCLC NOS,KRAS,1,6.92,3.22,1.21,8.0,0.264,Alectinib,1,PR,Progressed,9.6,23.5,1.0,None/Grade <3,0.0,0,1L,0,1
+P0092,75.0,Female,False,NSCLC NOS,TP53,1,1.73,9.86,0.83,8.0,0.432,Pembrolizumab,2,SD,Progressed,9.7,20.6,0.0,None/Grade <3,0.0,0,2L,0,1
+P0093,58.0,Male,False,Adenocarcinoma,"EGFR, KEAP1, PIK3CA",3,3.46,18.89,1.11,8.0,0.641,Alectinib,2L,PD,Progressed,7.3,20.7,0.0,None/Grade <3,0.0,0,2L,0,1
+P0094,77.0,Male,True,Squamous,"PIK3CA, ROS1",2,4.32,1.77,0.68,8.0,0.341,Docetaxel,First line,PD,Progressed,7.8,24.1,2.0,None/Grade <3,0.0,0,1L,0,1
+P0095,88.0,Female,True,Adenocarcinoma,"ROS1, STK11",2,2.8,3.21,0.82,8.0,0.463,Nivolumab,2,PR,Progressed,9.4,24.1,3.0,Grade >=3,1.0,0,2L,0,1
+P0096,77.0,Female,False,Squamous,"EGFR, MET",2,0.1,1.19,1.21,8.0,0.496,Carboplatin+Pemetrexed,1,PR,Progressed,7.6,27.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0097,69.0,Female,True,NSCLC NOS,"STK11, TP53",2,5.19,5.2,0.92,8.0,0.451,Carboplatin+Pemetrexed,2L,PR,Not progressed,6.3,16.0,2.0,None/Grade <3,0.0,0,2L,0,1
+P0098,50.0,Female,False,Squamous,KEAP1,1,0.1,2.75,0.87,8.0,0.606,Osimertinib,1,PD,Progressed,7.2,19.3,0.0,None/Grade <3,0.0,0,1L,0,1
+P0099,60.0,Female,False,Squamous,"ALK, KEAP1, ROS1",3,12.11,20.29,1.32,8.0,0.635,Nivolumab,2,SD,Not progressed,7.1,21.2,1.0,None/Grade <3,0.0,0,2L,0,1
+P0100,60.0,Male,True,Adenocarcinoma,"EGFR, MET",2,6.92,4.39,1.65,8.0,0.584,Nivolumab,First line,PR,Progressed,17.2,38.0,3.0,Grade >=3,1.0,0,1L,0,1
+P0101,73.0,Female,False,Squamous,"ALK, MET",2,2.8,5.39,1.25,8.0,0.359,Pembrolizumab,1,SD,Not progressed,9.7,21.1,1.0,None/Grade <3,0.0,0,1L,0,1
+P0102,69.0,Female,False,NSCLC NOS,STK11,1,11.19,1.8,1.39,8.0,0.441,Nivolumab,1L,PR,Not progressed,6.6,27.8,1.0,None/Grade <3,0.0,0,1L,0,1
+P0103,64.0,Male,False,Squamous,"EGFR, STK11",2,0.86,3.42,1.28,8.0,0.325,Pembrolizumab,First line,PR,Not progressed,,17.1,0.0,None/Grade <3,0.0,0,1L,0,1
+P0104,63.0,Female,False,Adenocarcinoma,ALK,1,2.59,9.14,1.14,8.0,0.405,Alectinib,2,PR,Not progressed,7.0,34.1,2.0,None/Grade <3,0.0,0,2L,0,1
+P0105,56.0,Male,True,Squamous,MET,1,1.73,9.47,0.62,8.0,0.602,Pembrolizumab,1L,PR,Not progressed,10.9,11.8,2.0,None/Grade <3,0.0,0,1L,0,1
+P0106,64.0,Female,False,Squamous,"ALK, STK11",2,0.86,10.06,0.95,8.0,0.288,Docetaxel,2,PR,Not progressed,6.6,21.5,2.0,None/Grade <3,0.0,0,2L,0,1
+P0107,71.0,Female,True,Squamous,"BRAF, PIK3CA",2,6.05,3.5,1.03,8.0,0.614,Pembrolizumab,1L,PD,Progressed,14.8,16.8,2.0,None/Grade <3,0.0,0,1L,0,1
+P0108,,Female,True,Adenocarcinoma,"STK11, TP53",2,0.1,4.32,0.76,8.0,0.206,Carboplatin+Pemetrexed,1,PR,Not progressed,3.9,22.7,2.0,None/Grade <3,0.0,1,1L,0,1
+P0109,70.0,Male,True,NSCLC NOS,BRAF,1,2.8,3.36,0.75,8.0,0.383,Docetaxel,1L,PR,Not progressed,13.9,13.3,3.0,Grade >=3,1.0,0,1L,1,1
+P0110,60.0,Female,True,Squamous,"ALK, MET",2,11.19,2.43,1.07,8.0,0.286,Pembrolizumab,2L,SD,Not progressed,4.5,18.7,1.0,None/Grade <3,0.0,0,2L,0,1
+P0111,75.0,Male,True,NSCLC NOS,"KRAS, TP53",2,0.86,0.21,1.1,8.0,0.413,Carboplatin+Pemetrexed,First line,SD,Progressed,7.2,10.4,0.0,None/Grade <3,0.0,0,1L,0,1
+P0112,59.0,Male,True,Squamous,"KEAP1, MET",2,14.7,0.76,0.69,8.0,0.623,Alectinib,1,SD,Not progressed,6.2,11.8,1.0,None/Grade <3,0.0,0,1L,0,1
+P0113,74.0,Female,False,NSCLC NOS,EGFR,1,6.05,1.13,1.15,8.0,0.106,Pembrolizumab,2,PR,Not progressed,6.3,19.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0114,74.0,Female,True,Squamous,"KEAP1, PIK3CA",2,9.51,2.48,0.68,8.0,0.45,Pembrolizumab,1,PR,Progressed,11.6,15.6,4.0,Grade >=3,1.0,0,1L,0,1
+P0115,75.0,Male,True,NSCLC NOS,"MET, ROS1",2,3.46,4.77,0.68,8.0,0.541,Alectinib,1,PD,Progressed,8.6,23.9,0.0,None/Grade <3,0.0,0,1L,0,1
+P0116,46.0,Female,True,NSCLC NOS,"KRAS, TP53",2,7.78,3.43,1.22,8.0,0.527,Osimertinib,2L,CR,Not progressed,6.4,17.3,3.0,Grade >=3,1.0,0,2L,0,1
+P0117,,Male,False,Adenocarcinoma,"KEAP1, MET",2,29.4,5.97,0.63,8.0,0.489,Carboplatin+Pemetrexed,1L,CR,Progressed,13.5,20.6,,Grade >=3,,1,1L,0,1
+P0118,63.0,Female,False,Adenocarcinoma,"PIK3CA, STK11",2,11.19,3.34,1.06,8.0,0.639,Docetaxel,2,SD,Not progressed,5.2,7.3,2.0,None/Grade <3,0.0,0,2L,0,1
+P0119,69.0,Female,False,Adenocarcinoma,"KEAP1, MET, PIK3CA",3,11.24,11.02,0.86,8.0,0.623,Osimertinib,1,PR,Not progressed,5.4,15.4,1.0,None/Grade <3,0.0,0,1L,0,1
+P0120,89.0,Female,False,NSCLC NOS,"EGFR, STK11",2,7.78,3.29,0.77,8.0,0.371,Carboplatin+Pemetrexed,2L,PD,Progressed,5.8,6.9,1.0,None/Grade <3,0.0,0,2L,0,1
+P0121,47.0,Female,False,Adenocarcinoma,ALK,1,5.19,22.01,0.77,8.0,0.269,Nivolumab,2L,SD,Progressed,12.8,22.5,3.0,Grade >=3,1.0,0,2L,0,1
+P0122,72.0,Male,False,Squamous,MET,1,8.39,4.93,0.96,8.0,0.58,Osimertinib,1,PR,Progressed,14.8,20.1,1.0,None/Grade <3,0.0,0,1L,0,1
+P0123,74.0,Female,True,Adenocarcinoma,TP53,1,2.59,3.3,0.85,8.0,0.436,Docetaxel,1,PD,Progressed,11.1,69.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0124,53.0,Female,True,Adenocarcinoma,MET,1,2.8,9.24,0.88,8.0,0.603,Osimertinib,2,PR,Progressed,4.0,12.0,0.0,None/Grade <3,0.0,0,2L,0,1
+P0125,44.0,Female,False,NSCLC NOS,"EGFR, KRAS, TP53",3,8.39,1.97,0.93,8.0,0.629,Pembrolizumab,1,PR,Progressed,6.6,23.2,0.0,None/Grade <3,0.0,0,1L,0,1
+P0126,61.0,Female,True,NSCLC NOS,"ALK, KEAP1",2,1.73,1.49,1.11,8.0,0.548,Docetaxel,First line,PR,Progressed,19.4,14.0,3.0,Grade >=3,1.0,0,1L,1,1
+P0127,63.0,Male,True,NSCLC NOS,"PIK3CA, STK11",2,11.19,9.32,0.98,8.0,0.521,Pembrolizumab,1L,SD,Progressed,12.2,22.9,3.0,Grade >=3,1.0,0,1L,0,1
+P0128,52.0,Male,True,Squamous,"ALK, BRAF, KRAS",3,6.92,8.46,1.11,8.0,0.622,Nivolumab,2,SD,Not progressed,9.8,33.4,0.0,None/Grade <3,0.0,0,2L,0,1
+P0129,69.0,Male,True,Squamous,"KEAP1, PIK3CA",2,12.97,3.57,0.71,8.0,0.373,Alectinib,First line,PD,Progressed,4.4,21.9,2.0,None/Grade <3,0.0,0,1L,0,1
+P0130,57.0,Female,True,Adenocarcinoma,"BRAF, PIK3CA",2,5.19,9.74,0.95,8.0,0.386,Carboplatin+Pemetrexed,2,PR,Not progressed,8.7,29.7,0.0,None/Grade <3,0.0,0,2L,0,1
+P0131,55.0,Male,False,Adenocarcinoma,"ALK, BRAF",2,7.78,10.73,1.22,8.0,0.408,Pembrolizumab,First line,PR,Not progressed,5.2,32.2,1.0,None/Grade <3,0.0,0,1L,0,1
+P0132,,Female,False,Adenocarcinoma,KRAS,1,7.78,0.7,0.88,8.0,0.107,Alectinib,2,PR,Progressed,13.9,11.3,2.0,None/Grade <3,0.0,1,2L,1,1
+P0133,56.0,Female,False,Adenocarcinoma,BRAF,1,4.89,4.7,0.85,8.0,0.628,Alectinib,First line,PR,Not progressed,10.4,26.5,0.0,None/Grade <3,0.0,0,1L,0,1
+P0134,70.0,Male,False,Adenocarcinoma,KEAP1,1,8.65,1.45,0.94,8.0,0.429,Nivolumab,First line,PR,Progressed,11.7,13.6,0.0,None/Grade <3,0.0,0,1L,0,1
+P0135,75.0,Male,True,Squamous,"ALK, ROS1, TP53",3,1.73,2.48,1.41,8.0,0.613,Osimertinib,1L,PD,Progressed,3.6,14.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0136,73.0,Male,True,Adenocarcinoma,ROS1,1,0.1,9.7,1.32,8.0,0.177,Nivolumab,2,PR,Not progressed,15.3,26.9,0.0,None/Grade <3,0.0,0,2L,0,1
+P0137,64.0,Male,True,Adenocarcinoma,TP53,1,4.32,0.36,1.04,8.0,0.326,Osimertinib,1,SD,Progressed,13.5,23.5,1.0,None/Grade <3,0.0,0,1L,0,1
+P0138,63.0,Male,False,,BRAF,1,5.59,6.42,0.89,8.0,0.622,Osimertinib,2,SD,Not progressed,,28.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0139,58.0,Female,True,Adenocarcinoma,"ALK, PIK3CA, ROS1",3,4.32,0.93,1.14,8.0,0.545,Carboplatin+Pemetrexed,2L,PD,Progressed,3.9,24.3,2.0,None/Grade <3,0.0,0,2L,0,1
+P0140,71.0,Female,False,Squamous,BRAF,1,6.05,9.54,0.96,8.0,0.117,Pembrolizumab,1L,PR,Progressed,7.4,13.8,1.0,None/Grade <3,0.0,0,1L,0,1
+P0141,61.0,Female,False,Adenocarcinoma,"KEAP1, ROS1",2,2.59,2.25,1.04,8.0,0.526,Docetaxel,2,SD,Progressed,6.4,17.6,2.0,None/Grade <3,0.0,0,2L,0,1
+P0142,63.0,Female,True,Adenocarcinoma,"ALK, BRAF, KEAP1",3,0.1,3.49,1.46,8.0,0.453,Carboplatin+Pemetrexed,1L,SD,Progressed,5.0,18.2,2.0,None/Grade <3,0.0,0,1L,0,1
+P0143,67.0,Female,True,NSCLC NOS,"ALK, STK11",2,3.46,2.04,1.07,8.0,0.393,Pembrolizumab,First line,PR,Not progressed,3.5,16.5,0.0,None/Grade <3,0.0,0,1L,0,1
+P0144,77.0,Female,True,NSCLC NOS,KEAP1,1,3.46,3.88,1.26,8.0,0.518,Nivolumab,2,SD,Not progressed,26.2,22.0,1.0,None/Grade <3,0.0,0,2L,1,1
+P0145,60.0,Male,True,Squamous,PIK3CA,1,11.24,4.49,1.14,8.0,0.451,Osimertinib,2L,SD,Progressed,24.0,9.4,1.0,None/Grade <3,0.0,0,2L,1,1
+P0146,64.0,Female,True,Adenocarcinoma,"EGFR, PIK3CA, ROS1",3,7.78,9.05,0.9,8.0,0.601,Docetaxel,2L,PR,Not progressed,20.6,26.1,3.0,Grade >=3,1.0,0,2L,0,1
+P0147,62.0,Female,True,Adenocarcinoma,KRAS,1,16.78,4.4,0.58,8.0,0.516,Docetaxel,1,SD,Not progressed,6.1,28.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0148,,Female,False,Adenocarcinoma,"MET, PIK3CA",2,7.78,5.45,1.03,8.0,0.641,Alectinib,First line,PR,Progressed,16.9,11.0,4.0,Grade >=3,1.0,1,1L,1,1
+P0149,55.0,Male,False,Squamous,"ALK, PIK3CA",2,2.8,8.49,1.13,8.0,0.616,Carboplatin+Pemetrexed,2,SD,Not progressed,8.5,33.0,2.0,None/Grade <3,0.0,0,2L,0,1
+P0150,64.0,Female,False,NSCLC NOS,"EGFR, TP53",2,7.83,7.44,0.95,8.0,0.44,Osimertinib,First line,SD,Progressed,12.7,15.2,3.0,Grade >=3,1.0,0,1L,0,1
+P0151,81.0,Female,False,Squamous,TP53,1,13.98,4.65,0.83,8.0,0.407,Carboplatin+Pemetrexed,First line,PD,Progressed,6.7,22.1,2.0,None/Grade <3,0.0,0,1L,0,1
+P0152,54.0,Female,True,Squamous,PIK3CA,1,0.1,9.05,1.33,8.0,0.387,Pembrolizumab,First line,PR,Not progressed,9.5,24.9,0.0,None/Grade <3,0.0,0,1L,0,1
+P0153,63.0,Female,True,Adenocarcinoma,"ALK, BRAF, PIK3CA",3,2.59,5.73,1.09,8.0,0.629,Alectinib,1,PR,Progressed,,26.7,0.0,None/Grade <3,0.0,0,1L,0,1
+P0154,35.0,Female,True,Adenocarcinoma,"KEAP1, KRAS",2,10.38,9.37,0.91,8.0,0.483,Carboplatin+Pemetrexed,2L,PD,Progressed,9.4,17.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0155,87.0,Female,False,NSCLC NOS,"BRAF, KEAP1, STK11",3,5.59,1.92,1.02,8.0,0.615,Carboplatin+Pemetrexed,2,SD,Not progressed,4.6,36.9,2.0,None/Grade <3,0.0,0,2L,0,1
+P0156,47.0,Female,True,NSCLC NOS,"EGFR, KRAS, MET",3,8.65,2.44,0.55,8.0,0.454,Docetaxel,2L,PR,Progressed,13.1,27.1,3.0,Grade >=3,1.0,0,2L,0,1
+P0157,83.0,Female,False,Squamous,BRAF,1,4.32,2.93,1.07,8.0,0.386,Pembrolizumab,2L,SD,Not progressed,4.8,17.9,4.0,Grade >=3,1.0,0,2L,0,1
+P0158,75.0,Female,True,Squamous,"KEAP1, PIK3CA, TP53",3,34.59,0.37,1.07,8.0,0.533,Docetaxel,2L,PD,Progressed,8.5,46.1,0.0,None/Grade <3,0.0,0,2L,0,1
+P0159,49.0,Female,True,NSCLC NOS,"EGFR, KRAS",2,0.1,1.4,1.23,8.0,0.55,Osimertinib,2L,PD,Progressed,4.4,70.0,,None/Grade <3,,0,2L,0,1
+P0160,77.0,Male,False,NSCLC NOS,EGFR,1,5.87,11.04,1.12,8.0,0.376,Pembrolizumab,1L,SD,Not progressed,4.2,13.2,1.0,None/Grade <3,0.0,0,1L,0,1
+P0161,65.0,Male,True,NSCLC NOS,"MET, PIK3CA, STK11",3,27.97,1.45,0.55,8.0,0.596,Carboplatin+Pemetrexed,2,PR,Progressed,31.9,38.1,0.0,None/Grade <3,0.0,0,2L,0,1
+P0162,,Female,False,NSCLC NOS,ALK,1,17.29,9.79,1.22,8.0,0.22,Docetaxel,2L,PD,Progressed,13.4,19.3,0.0,None/Grade <3,0.0,1,2L,0,1
+P0163,57.0,Female,True,Squamous,PIK3CA,1,6.05,4.88,1.07,8.0,0.329,Docetaxel,2,PR,Not progressed,7.2,21.9,0.0,None/Grade <3,0.0,0,2L,0,1
+P0164,62.0,Female,False,NSCLC NOS,KEAP1,1,7.78,2.11,0.61,8.0,0.599,Osimertinib,1,PR,Not progressed,3.5,16.2,0.0,None/Grade <3,0.0,0,1L,0,1
+P0165,62.0,Female,True,Squamous,"ALK, KEAP1",2,3.46,32.47,1.02,8.0,0.603,Nivolumab,2,PR,Progressed,13.9,21.5,2.0,None/Grade <3,0.0,0,2L,0,1
+P0166,84.0,Female,True,NSCLC NOS,"BRAF, EGFR, TP53",3,3.46,13.26,1.03,8.0,0.607,Nivolumab,1,PR,Not progressed,12.7,24.0,4.0,Grade >=3,1.0,0,1L,0,1
+P0167,61.0,Male,False,Adenocarcinoma,"ALK, STK11",2,22.37,1.14,1.18,8.0,0.415,Carboplatin+Pemetrexed,First line,PD,Progressed,7.8,19.1,4.0,Grade >=3,1.0,0,1L,0,1
+P0168,49.0,Female,True,Squamous,"KEAP1, STK11",2,6.92,2.58,1.25,8.0,0.406,Alectinib,1L,PR,Not progressed,15.8,25.0,1.0,None/Grade <3,0.0,0,1L,0,1
+P0169,61.0,Female,False,Squamous,KRAS,1,5.19,3.03,0.86,8.0,0.573,Pembrolizumab,2L,PR,Progressed,12.0,4.0,1.0,None/Grade <3,0.0,0,2L,1,1
+P0170,80.0,Female,True,NSCLC NOS,"BRAF, KRAS",2,0.1,10.45,0.87,8.0,0.543,Docetaxel,2L,SD,Not progressed,5.2,17.9,2.0,None/Grade <3,0.0,0,2L,0,1
+P0171,81.0,Female,True,NSCLC NOS,"ALK, PIK3CA",2,3.46,3.03,1.28,8.7,0.356,Carboplatin+Pemetrexed,1L,PR,Not progressed,7.7,23.7,0.0,None/Grade <3,0.0,0,1L,0,0
+P0172,78.0,Female,False,NSCLC NOS,"KRAS, MET",2,3.46,1.13,1.31,8.0,0.599,Carboplatin+Pemetrexed,2,PD,Progressed,10.5,15.4,0.0,None/Grade <3,0.0,0,2L,0,1
+P0173,73.0,Male,True,NSCLC NOS,"MET, PIK3CA",2,3.46,1.31,1.34,8.0,0.631,Alectinib,1,PD,Progressed,,15.1,4.0,Grade >=3,1.0,0,1L,0,1
+P0174,69.0,Male,False,Adenocarcinoma,PIK3CA,1,1.73,1.98,0.84,8.0,0.568,Nivolumab,1L,SD,Progressed,8.4,37.5,0.0,None/Grade <3,0.0,0,1L,0,1
+P0175,66.0,Male,True,Squamous,"BRAF, EGFR",2,2.59,0.9,1.12,8.0,0.281,Pembrolizumab,1L,PR,Not progressed,8.9,28.5,4.0,Grade >=3,1.0,0,1L,0,1
+P0176,49.0,Female,False,Squamous,"MET, ROS1",2,2.59,8.84,1.15,8.0,0.409,Osimertinib,1L,PR,Progressed,17.6,12.9,2.0,None/Grade <3,0.0,0,1L,1,1
+P0177,58.0,Female,True,NSCLC NOS,"BRAF, KEAP1",2,9.51,1.59,0.65,8.0,0.495,Docetaxel,First line,PR,Progressed,4.5,34.4,1.0,None/Grade <3,0.0,0,1L,0,1
+P0178,85.0,Female,False,NSCLC NOS,ALK,1,6.92,1.25,0.64,8.0,0.601,Osimertinib,1L,PR,Progressed,6.5,11.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0179,56.0,Female,False,Squamous,MET,1,3.91,10.57,1.03,8.0,0.363,Alectinib,2,SD,Not progressed,3.5,38.5,4.0,Grade >=3,1.0,0,2L,0,1
+P0180,36.0,Female,True,NSCLC NOS,TP53,1,6.05,1.56,1.05,8.0,0.151,Carboplatin+Pemetrexed,1,PD,Progressed,6.6,18.9,3.0,Grade >=3,1.0,0,1L,0,1
+P0181,,Female,True,Squamous,"PIK3CA, TP53",2,12.97,0.94,1.1,8.0,0.629,Pembrolizumab,2L,PD,Progressed,9.2,12.1,2.0,None/Grade <3,0.0,1,2L,0,1
+P0182,38.0,Male,True,Adenocarcinoma,KEAP1,1,6.92,5.01,0.96,8.0,0.163,Docetaxel,1,PR,Not progressed,6.4,30.5,4.0,Grade >=3,1.0,0,1L,0,1
+P0183,62.0,Female,True,Squamous,"KEAP1, PIK3CA, TP53",3,16.43,2.95,0.92,8.0,0.501,Docetaxel,2,SD,Not progressed,7.2,18.8,0.0,None/Grade <3,0.0,0,2L,0,1
+P0184,57.0,Female,False,Squamous,TP53,1,3.46,10.26,0.88,8.0,0.379,Alectinib,1L,PR,Progressed,9.5,17.9,1.0,None/Grade <3,0.0,0,1L,0,1
+P0185,67.0,Female,True,Squamous,"EGFR, TP53",2,8.39,1.41,1.04,8.0,0.328,Carboplatin+Pemetrexed,1,PR,Not progressed,15.5,27.3,1.0,None/Grade <3,0.0,0,1L,0,1
+P0186,85.0,Male,True,Adenocarcinoma,PIK3CA,1,3.46,1.46,1.18,8.0,0.515,Osimertinib,First line,PR,Progressed,5.6,20.6,2.0,None/Grade <3,0.0,0,1L,0,1
+P0187,72.0,Male,False,NSCLC NOS,"EGFR, MET",2,12.97,0.62,0.73,8.0,0.415,Alectinib,2L,SD,Not progressed,11.2,18.0,1.0,None/Grade <3,0.0,0,2L,0,1
+P0188,46.0,Female,True,Adenocarcinoma,"ALK, MET",2,7.78,0.92,0.84,8.0,0.538,Carboplatin+Pemetrexed,2L,PD,Progressed,12.7,16.1,4.0,Grade >=3,1.0,0,2L,0,1
+P0189,90.0,Female,True,Squamous,"ROS1, TP53",2,0.98,5.3,1.44,8.0,0.507,Pembrolizumab,First line,PR,Not progressed,2.4,20.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0190,64.0,Male,False,NSCLC NOS,"BRAF, EGFR, MET",3,40.0,0.53,1.37,8.0,0.449,Pembrolizumab,1,PD,Progressed,5.8,28.7,3.0,Grade >=3,1.0,0,1L,0,1
+P0191,76.0,Female,False,Squamous,ALK,1,10.38,5.62,0.78,8.0,0.428,Alectinib,2L,PD,Progressed,15.7,10.3,1.0,None/Grade <3,0.0,0,2L,1,1
+P0192,68.0,Female,False,Squamous,"ALK, EGFR, TP53",3,1.73,1.56,1.28,8.0,0.519,Nivolumab,2L,PR,Not progressed,6.0,23.8,1.0,None/Grade <3,0.0,0,2L,0,1
+P0193,62.0,Female,False,Squamous,"ROS1, STK11",2,5.19,3.33,1.34,8.0,0.609,Pembrolizumab,First line,PR,Not progressed,3.9,26.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0194,70.0,Male,False,Squamous,STK11,1,1.87,1.39,1.14,8.0,0.105,Osimertinib,2L,PR,Not progressed,3.9,6.6,2.0,None/Grade <3,0.0,0,2L,0,1
+P0195,89.0,Female,True,NSCLC NOS,"ALK, STK11",2,16.78,1.03,1.18,8.0,0.356,Carboplatin+Pemetrexed,1,PD,Progressed,8.1,21.5,,None/Grade <3,,0,1L,0,1
+P0196,70.0,Male,False,Squamous,"BRAF, ROS1",2,3.46,2.55,0.98,8.6,0.595,Alectinib,1L,PR,Progressed,9.7,48.1,0.0,None/Grade <3,0.0,0,1L,0,0
+P0197,66.0,Female,False,Adenocarcinoma,"BRAF, KEAP1",2,5.74,3.15,1.23,8.0,0.177,Docetaxel,First line,PD,Progressed,24.1,14.0,0.0,None/Grade <3,0.0,0,1L,1,1
+P0198,45.0,Female,False,Squamous,"PIK3CA, STK11",2,7.78,9.94,1.1,8.0,0.376,Osimertinib,2L,SD,Not progressed,11.4,16.9,3.0,Grade >=3,1.0,0,2L,0,1
+P0199,45.0,Female,True,NSCLC NOS,ALK,1,6.85,2.95,1.19,8.0,0.354,Pembrolizumab,First line,PR,Progressed,10.7,33.9,1.0,None/Grade <3,0.0,0,1L,0,1
+P0200,65.0,Male,True,Adenocarcinoma,"KRAS, TP53",2,11.19,5.88,1.16,8.5,0.421,Osimertinib,1,PD,Progressed,11.5,25.7,3.0,Grade >=3,1.0,0,1L,0,0
+P0201,56.0,Female,False,Squamous,STK11,1,16.78,4.74,0.71,8.0,0.086,Nivolumab,2L,PD,Progressed,7.3,21.7,1.0,None/Grade <3,0.0,0,2L,0,1
+P0202,64.0,Female,True,Adenocarcinoma,EGFR,1,1.73,20.61,0.93,8.0,0.508,Pembrolizumab,2L,PR,Progressed,4.1,17.7,2.0,None/Grade <3,0.0,0,2L,0,1
+P0203,56.0,Male,True,NSCLC NOS,KEAP1,1,8.65,2.92,1.24,8.0,0.276,Docetaxel,First line,PD,Progressed,9.3,25.3,2.0,None/Grade <3,0.0,0,1L,0,1
+P0204,60.0,Female,True,Adenocarcinoma,ALK,1,3.46,1.29,0.74,8.0,0.452,Nivolumab,First line,PD,Progressed,11.1,8.4,0.0,None/Grade <3,0.0,0,1L,1,1
+P0205,72.0,Male,False,Adenocarcinoma,"BRAF, EGFR, MET",3,9.51,1.05,0.75,8.0,0.442,Docetaxel,2,PR,Not progressed,16.0,40.4,1.0,None/Grade <3,0.0,0,2L,0,1
+P0206,69.0,Female,False,Squamous,TP53,1,11.24,7.5,1.19,8.0,0.582,Carboplatin+Pemetrexed,1,PR,Progressed,6.3,11.2,1.0,None/Grade <3,0.0,0,1L,0,1
+P0207,81.0,Male,False,NSCLC NOS,"MET, TP53",2,2.8,19.58,1.33,8.0,0.212,Pembrolizumab,2L,SD,Not progressed,3.5,8.9,2.0,None/Grade <3,0.0,0,2L,0,1
+P0208,64.0,Female,False,,"BRAF, ROS1",2,7.78,4.76,0.75,8.0,0.574,Nivolumab,2,SD,Progressed,10.4,9.3,2.0,None/Grade <3,0.0,0,2L,1,1
+P0209,36.0,Female,True,NSCLC NOS,"KEAP1, KRAS",2,6.92,1.82,0.94,8.0,0.614,Pembrolizumab,2L,PD,Progressed,6.7,11.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0210,67.0,Female,True,,ALK,1,4.44,2.3,1.14,8.0,0.473,Osimertinib,1L,PR,Not progressed,11.3,19.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0211,64.0,Female,True,NSCLC NOS,"EGFR, KEAP1, PIK3CA",3,2.94,1.51,0.81,8.0,0.596,Carboplatin+Pemetrexed,2L,PD,Progressed,5.8,26.9,2.0,None/Grade <3,0.0,0,2L,0,1
+P0212,78.0,Male,False,Adenocarcinoma,MET,1,2.8,1.52,1.0,8.0,0.584,Pembrolizumab,2,PD,Progressed,7.9,16.0,1.0,None/Grade <3,0.0,0,2L,0,1
+P0213,54.0,Female,False,Squamous,PIK3CA,1,8.39,18.54,0.59,8.0,0.08,Docetaxel,First line,PD,Progressed,2.8,10.1,3.0,Grade >=3,1.0,0,1L,0,1
+P0214,51.0,Male,False,Squamous,"BRAF, MET, ROS1",3,27.97,9.27,0.75,8.0,0.597,Pembrolizumab,2L,PR,Not progressed,6.5,24.6,4.0,Grade >=3,1.0,0,2L,0,1
+P0215,85.0,Male,True,Squamous,"EGFR, TP53",2,4.89,1.84,0.99,8.0,0.626,Osimertinib,2L,PR,Progressed,4.6,10.0,0.0,None/Grade <3,0.0,0,2L,0,1
+P0216,75.0,Male,True,Squamous,KRAS,1,7.78,1.42,0.9,8.0,0.469,Alectinib,2L,SD,Not progressed,5.1,23.2,1.0,None/Grade <3,0.0,0,2L,0,1
+P0217,55.0,Male,False,Adenocarcinoma,MET,1,0.1,6.38,1.1,9.4,0.157,Nivolumab,2L,PD,Progressed,10.8,14.3,0.0,None/Grade <3,0.0,0,2L,0,0
+P0218,74.0,Male,True,Adenocarcinoma,"EGFR, PIK3CA",2,8.39,8.45,1.19,8.0,0.135,Pembrolizumab,1,SD,Not progressed,7.4,20.2,3.0,Grade >=3,1.0,0,1L,0,1
+P0219,72.0,Female,True,Adenocarcinoma,"ALK, TP53",2,2.59,14.76,1.0,8.0,0.524,Pembrolizumab,2L,PR,Not progressed,12.4,17.6,0.0,None/Grade <3,0.0,0,2L,0,1
+P0220,73.0,Female,True,Squamous,"ALK, BRAF, STK11",3,2.59,1.95,1.04,8.0,0.578,Nivolumab,First line,PR,Not progressed,6.1,14.9,3.0,Grade >=3,1.0,0,1L,0,1
+P0221,46.0,Male,True,Adenocarcinoma,"ALK, MET",2,2.59,6.33,0.8,8.0,0.643,Nivolumab,2L,PD,Progressed,5.5,43.4,0.0,None/Grade <3,0.0,0,2L,0,1
+P0222,76.0,Female,False,NSCLC NOS,BRAF,1,0.1,10.0,1.27,8.0,0.461,Pembrolizumab,1,PR,Progressed,6.4,25.3,3.0,Grade >=3,1.0,0,1L,0,1
+P0223,75.0,Male,True,Adenocarcinoma,"PIK3CA, TP53",2,19.89,1.29,0.97,8.0,0.544,Carboplatin+Pemetrexed,1,PR,Not progressed,,27.2,2.0,None/Grade <3,0.0,0,1L,0,1
+P0224,70.0,Female,True,Squamous,"BRAF, KRAS",2,1.73,5.01,0.9,8.0,0.623,Osimertinib,1L,PD,Progressed,7.6,18.1,3.0,Grade >=3,1.0,0,1L,0,1
+P0225,61.0,Female,False,Adenocarcinoma,"EGFR, MET",2,3.46,2.47,0.62,8.0,0.287,Nivolumab,1L,PR,Progressed,6.3,28.8,3.0,Grade >=3,1.0,0,1L,0,1
+P0226,73.0,Female,True,Squamous,"EGFR, ROS1",2,1.73,3.22,1.3,8.0,0.408,Alectinib,2,PR,Not progressed,18.4,23.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0227,57.0,Male,True,Adenocarcinoma,KEAP1,1,2.59,1.12,0.85,8.0,0.363,Pembrolizumab,2,PR,Not progressed,7.9,11.4,1.0,None/Grade <3,0.0,0,2L,0,1
+P0228,89.0,Female,True,Squamous,MET,1,5.59,2.61,0.96,8.0,0.265,Pembrolizumab,1,SD,Progressed,17.1,22.2,3.0,Grade >=3,1.0,0,1L,0,1
+P0229,68.0,Male,True,Adenocarcinoma,"KEAP1, ROS1",2,2.8,0.83,1.57,8.0,0.359,Pembrolizumab,1L,PR,Not progressed,9.3,29.7,3.0,Grade >=3,1.0,0,1L,0,1
+P0230,61.0,Female,True,NSCLC NOS,PIK3CA,1,2.59,0.64,1.26,9.1,0.229,Docetaxel,2L,SD,Progressed,11.6,14.0,1.0,None/Grade <3,0.0,0,2L,0,0
+P0231,69.0,Female,True,NSCLC NOS,"KRAS, MET",2,11.19,1.06,0.84,8.0,0.412,Carboplatin+Pemetrexed,First line,PR,Progressed,12.3,19.8,4.0,Grade >=3,1.0,0,1L,0,1
+P0232,62.0,Male,False,Adenocarcinoma,PIK3CA,1,6.05,8.71,1.01,8.0,0.237,Carboplatin+Pemetrexed,2,PD,Progressed,7.6,31.8,3.0,Grade >=3,1.0,0,2L,0,1
+P0233,69.0,Female,False,,MET,1,6.92,18.4,0.88,8.0,0.602,Osimertinib,1L,CR,Progressed,4.3,16.1,3.0,Grade >=3,1.0,0,1L,0,1
+P0234,,Female,True,Adenocarcinoma,BRAF,1,2.8,4.44,0.84,8.0,0.631,Osimertinib,First line,PD,Progressed,9.5,40.7,0.0,None/Grade <3,0.0,1,1L,0,1
+P0235,64.0,Female,False,Squamous,KRAS,1,8.65,4.72,1.23,8.0,0.18,Pembrolizumab,2L,SD,Not progressed,9.9,15.4,,Grade >=3,,0,2L,0,1
+P0236,89.0,Male,False,Adenocarcinoma,ROS1,1,0.1,0.71,1.17,8.0,0.428,Nivolumab,First line,SD,Not progressed,5.7,18.4,0.0,None/Grade <3,0.0,0,1L,0,1
+P0237,65.0,Male,False,NSCLC NOS,EGFR,1,5.87,6.82,0.88,8.0,0.559,Alectinib,1,CR,Not progressed,7.4,14.8,2.0,None/Grade <3,0.0,0,1L,0,1
+P0238,72.0,Female,True,Squamous,STK11,1,2.59,3.4,0.8,8.0,0.25,Pembrolizumab,2L,PR,Progressed,1.5,70.0,3.0,Grade >=3,1.0,0,2L,0,1
+P0239,55.0,Female,True,,"KEAP1, TP53",2,11.19,10.6,0.7,8.0,0.568,Nivolumab,2,SD,Not progressed,4.9,12.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0240,65.0,Male,False,NSCLC NOS,"KEAP1, KRAS, TP53",3,16.43,3.37,0.9,8.0,0.555,Nivolumab,First line,SD,Not progressed,4.5,21.2,2.0,None/Grade <3,0.0,0,1L,0,1
+P0241,53.0,Male,True,Adenocarcinoma,"BRAF, MET",2,8.39,6.67,1.19,8.0,0.566,Alectinib,2L,SD,Not progressed,8.4,23.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0242,52.0,Female,False,Squamous,BRAF,1,15.56,1.0,1.13,8.0,0.345,Carboplatin+Pemetrexed,1L,PR,Progressed,11.7,24.9,2.0,None/Grade <3,0.0,0,1L,0,1
+P0243,67.0,Male,True,Adenocarcinoma,"BRAF, STK11",2,0.1,6.59,1.06,8.0,0.568,Docetaxel,First line,PD,Progressed,5.5,14.6,0.0,None/Grade <3,0.0,0,1L,0,1
+P0244,54.0,Male,False,Squamous,"KRAS, PIK3CA, TP53",3,6.92,9.6,1.14,8.0,0.13,Pembrolizumab,First line,SD,Not progressed,,33.5,2.0,None/Grade <3,0.0,0,1L,0,1
+P0245,40.0,Female,True,Adenocarcinoma,KEAP1,1,4.32,2.27,1.21,8.0,0.548,Nivolumab,1L,SD,Not progressed,8.9,33.0,0.0,None/Grade <3,0.0,0,1L,0,1
+P0246,80.0,Female,False,Squamous,BRAF,1,3.46,1.97,0.99,8.0,0.549,Carboplatin+Pemetrexed,1,PR,Not progressed,,14.3,2.0,None/Grade <3,0.0,0,1L,0,1
+P0247,71.0,Female,True,Squamous,"KRAS, MET",2,5.19,6.36,0.87,8.0,0.501,Nivolumab,1,SD,Progressed,6.1,22.3,,None/Grade <3,,0,1L,0,1
+P0248,78.0,Male,False,Adenocarcinoma,"ALK, BRAF, EGFR",3,2.59,2.7,0.61,8.0,0.572,Docetaxel,First line,SD,Progressed,4.4,25.3,0.0,None/Grade <3,0.0,0,1L,0,1
+P0249,65.0,Female,False,Adenocarcinoma,KRAS,1,12.11,4.61,1.21,8.0,0.265,Pembrolizumab,1,PR,Not progressed,3.2,13.6,3.0,Grade >=3,1.0,0,1L,0,1
+P0250,,Female,False,Adenocarcinoma,"EGFR, PIK3CA",2,6.92,4.29,0.85,8.0,0.408,Carboplatin+Pemetrexed,2L,SD,Progressed,15.5,22.0,0.0,None/Grade <3,0.0,1,2L,0,1
+P0251,64.0,Female,True,NSCLC NOS,"KRAS, MET",2,0.98,3.49,1.25,8.0,0.522,Alectinib,2L,PD,Progressed,8.5,14.5,1.0,None/Grade <3,0.0,0,2L,0,1
+P0252,86.0,Male,True,Squamous,TP53,1,22.37,2.15,0.78,8.0,0.49,Carboplatin+Pemetrexed,First line,PR,Not progressed,5.9,13.9,0.0,None/Grade <3,0.0,0,1L,0,1
+P0253,64.0,Female,False,Squamous,"MET, TP53",2,3.46,8.22,0.87,8.0,0.459,Osimertinib,1L,SD,Not progressed,14.7,14.3,1.0,None/Grade <3,0.0,0,1L,1,1
+P0254,64.0,Female,True,Adenocarcinoma,"KEAP1, ROS1",2,3.46,0.95,0.87,8.0,0.398,Alectinib,1L,SD,Not progressed,12.2,28.3,3.0,Grade >=3,1.0,0,1L,0,1
+P0255,,Female,False,Squamous,"ALK, EGFR, KRAS",3,25.17,6.31,0.68,8.0,0.445,Nivolumab,2L,PD,Progressed,7.0,28.4,2.0,None/Grade <3,0.0,1,2L,0,1
+P0256,70.0,Female,True,NSCLC NOS,"ALK, BRAF, TP53",3,1.96,1.87,1.08,8.0,0.543,Docetaxel,1L,SD,Progressed,10.1,39.0,1.0,None/Grade <3,0.0,0,1L,0,1
+P0257,59.0,Male,False,NSCLC NOS,"EGFR, TP53",2,2.59,1.1,0.97,8.0,0.283,Alectinib,First line,SD,Not progressed,5.5,22.5,2.0,None/Grade <3,0.0,0,1L,0,1
+P0258,62.0,Female,False,Squamous,"BRAF, ROS1",2,7.78,1.61,1.31,8.0,0.551,Alectinib,First line,PD,Progressed,11.7,20.7,2.0,None/Grade <3,0.0,0,1L,0,1
+P0259,71.0,Female,False,Squamous,KRAS,1,3.46,3.53,1.39,8.0,0.467,Docetaxel,2L,PR,Progressed,7.1,16.9,0.0,None/Grade <3,0.0,0,2L,0,1
+P0260,66.0,Female,False,NSCLC NOS,"KEAP1, STK11",2,11.24,0.83,1.1,8.0,0.443,Carboplatin+Pemetrexed,1,PR,Not progressed,12.7,29.5,2.0,None/Grade <3,0.0,0,1L,0,1
+P0261,63.0,Female,True,NSCLC NOS,"KEAP1, STK11, TP53",3,10.66,2.16,0.69,8.7,0.541,Pembrolizumab,1,SD,Progressed,5.2,13.3,0.0,None/Grade <3,0.0,0,1L,0,0
+P0262,71.0,Female,False,Adenocarcinoma,ALK,1,6.92,8.25,0.77,8.0,0.594,Docetaxel,1L,PR,Progressed,26.5,25.2,2.0,None/Grade <3,0.0,0,1L,1,1
+P0263,46.0,Female,True,NSCLC NOS,BRAF,1,5.19,1.95,1.08,8.0,0.463,Pembrolizumab,2,PR,Progressed,7.0,16.7,0.0,None/Grade <3,0.0,0,2L,0,1
+P0264,74.0,Female,True,Squamous,"BRAF, STK11",2,0.1,8.11,1.04,8.0,0.508,Pembrolizumab,2L,SD,Not progressed,12.5,7.7,4.0,Grade >=3,1.0,0,2L,1,1
+P0265,45.0,Female,True,Adenocarcinoma,"KRAS, PIK3CA",2,2.8,6.41,0.9,8.0,0.345,Nivolumab,2L,PD,Progressed,4.6,34.2,1.0,None/Grade <3,0.0,0,2L,0,1
+P0266,65.0,Female,False,NSCLC NOS,PIK3CA,1,2.8,8.47,0.9,8.0,0.279,Pembrolizumab,1,PD,Progressed,6.4,36.3,0.0,None/Grade <3,0.0,0,1L,0,1
+P0267,70.0,Female,True,NSCLC NOS,"KEAP1, ROS1, TP53",3,1.73,3.71,1.03,8.0,0.649,Carboplatin+Pemetrexed,2,PR,Not progressed,7.9,39.4,2.0,None/Grade <3,0.0,0,2L,0,1
+P0268,73.0,Male,True,Squamous,"ROS1, TP53",2,6.92,7.73,0.62,8.0,0.355,Alectinib,1,PR,Progressed,12.5,19.6,2.0,None/Grade <3,0.0,0,1L,0,1
+P0269,66.0,Female,False,Squamous,"KRAS, MET, PIK3CA",3,6.05,4.56,1.14,8.0,0.538,Osimertinib,First line,PR,Not progressed,8.5,18.9,2.0,None/Grade <3,0.0,0,1L,0,1
+P0270,78.0,Male,True,,"KRAS, ROS1",2,0.1,2.13,0.77,8.0,0.472,Carboplatin+Pemetrexed,First line,CR,Not progressed,3.2,46.2,2.0,None/Grade <3,0.0,0,1L,0,1
+P0271,81.0,Male,False,NSCLC NOS,"BRAF, KEAP1",2,6.05,7.99,1.02,8.0,0.6,Carboplatin+Pemetrexed,2L,PD,Progressed,14.1,16.3,0.0,None/Grade <3,0.0,0,2L,0,1
+P0272,39.0,Female,False,Adenocarcinoma,"BRAF, PIK3CA, ROS1",3,1.73,2.6,1.07,8.0,0.382,Osimertinib,1L,PD,Progressed,4.6,14.3,2.0,None/Grade <3,0.0,0,1L,0,1
+P0273,64.0,Male,False,NSCLC NOS,"KRAS, MET",2,2.8,2.79,1.11,8.0,0.334,Carboplatin+Pemetrexed,2L,PD,Progressed,10.8,20.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0274,66.0,Female,False,NSCLC NOS,"KEAP1, ROS1, STK11",3,4.32,1.24,1.14,8.0,0.375,Alectinib,2L,SD,Not progressed,2.6,15.1,2.0,None/Grade <3,0.0,0,2L,0,1
+P0275,62.0,Male,True,Squamous,"KRAS, STK11",2,4.32,0.86,0.87,8.1,0.606,Alectinib,2L,SD,Not progressed,8.6,21.3,0.0,None/Grade <3,0.0,0,2L,0,0
+P0276,69.0,Female,True,Adenocarcinoma,"ALK, PIK3CA",2,4.89,2.71,0.76,8.0,0.573,Osimertinib,First line,PR,Progressed,12.8,10.7,0.0,None/Grade <3,0.0,0,1L,1,1
+P0277,66.0,Male,False,Adenocarcinoma,"MET, PIK3CA",2,13.98,7.92,1.05,8.0,0.577,Osimertinib,First line,PR,Progressed,7.5,15.0,1.0,None/Grade <3,0.0,0,1L,0,1
+P0278,48.0,Female,False,Adenocarcinoma,KEAP1,1,0.86,2.25,0.98,8.0,0.138,Nivolumab,2L,PD,Progressed,7.2,27.1,2.0,None/Grade <3,0.0,0,2L,0,1
+P0279,67.0,Female,True,Adenocarcinoma,"BRAF, STK11, TP53",3,25.43,2.82,1.59,8.0,0.46,Alectinib,First line,PD,Progressed,11.9,22.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0280,59.0,Male,True,NSCLC NOS,KEAP1,1,2.94,28.15,0.83,8.0,0.421,Pembrolizumab,2,PR,Progressed,9.9,14.2,0.0,None/Grade <3,0.0,0,2L,0,1
+P0281,57.0,Female,False,NSCLC NOS,"BRAF, ROS1, TP53",3,5.19,6.46,0.9,8.0,0.501,Osimertinib,First line,PD,Progressed,8.7,19.9,1.0,None/Grade <3,0.0,0,1L,0,1
+P0282,79.0,Female,True,Squamous,PIK3CA,1,8.39,2.45,1.24,8.0,0.317,Osimertinib,First line,PR,Not progressed,18.3,19.4,2.0,None/Grade <3,0.0,0,1L,0,1
+P0283,82.0,Female,False,NSCLC NOS,"EGFR, MET",2,6.92,10.43,0.88,8.0,0.482,Carboplatin+Pemetrexed,1L,SD,Not progressed,5.2,19.7,2.0,None/Grade <3,0.0,0,1L,0,1
+P0284,74.0,Female,True,NSCLC NOS,ROS1,1,13.98,1.42,1.14,8.0,0.403,Nivolumab,1,PR,Progressed,7.4,15.1,0.0,None/Grade <3,0.0,0,1L,0,1
+P0285,72.0,Male,True,Squamous,MET,1,2.59,8.64,0.64,8.0,0.241,Carboplatin+Pemetrexed,First line,SD,Not progressed,18.3,27.5,0.0,None/Grade <3,0.0,0,1L,0,1
+P0286,58.0,Female,True,Adenocarcinoma,"MET, PIK3CA",2,11.19,4.61,1.3,8.0,0.567,Docetaxel,2L,SD,Not progressed,5.1,21.0,4.0,Grade >=3,1.0,0,2L,0,1
+P0287,67.0,Male,False,Adenocarcinoma,"MET, ROS1, STK11",3,0.86,2.49,0.83,8.0,0.432,Pembrolizumab,1L,SD,Not progressed,10.3,30.5,4.0,Grade >=3,1.0,0,1L,0,1
+P0288,77.0,Female,True,Adenocarcinoma,"ALK, ROS1",2,9.51,7.81,0.79,8.0,0.292,Osimertinib,1,PR,Progressed,19.9,23.7,0.0,None/Grade <3,0.0,0,1L,0,1
+P0289,69.0,Male,True,Squamous,"ALK, EGFR",2,13.98,1.72,1.31,8.0,0.429,Osimertinib,1L,SD,Not progressed,8.4,27.4,2.0,None/Grade <3,0.0,0,1L,0,1
+P0290,61.0,Male,True,NSCLC NOS,"STK11, TP53",2,0.86,1.61,0.86,8.0,0.555,Osimertinib,First line,PD,Progressed,25.6,29.4,1.0,None/Grade <3,0.0,0,1L,0,1
+P0291,54.0,Male,False,NSCLC NOS,BRAF,1,11.19,3.08,0.65,8.0,0.283,Carboplatin+Pemetrexed,2L,SD,Not progressed,7.1,25.5,0.0,None/Grade <3,0.0,0,2L,0,1
+P0292,59.0,Female,True,,"MET, ROS1",2,1.87,3.88,0.76,8.0,0.603,Nivolumab,First line,PD,Progressed,1.4,36.9,2.0,None/Grade <3,0.0,0,1L,0,1
+P0293,54.0,Male,True,Squamous,EGFR,1,2.94,2.4,1.1,8.0,0.155,Nivolumab,2,PR,Progressed,6.7,32.2,2.0,None/Grade <3,0.0,0,2L,0,1
+P0294,56.0,Male,True,Adenocarcinoma,KRAS,1,1.73,3.03,1.06,8.0,0.078,Nivolumab,1,PR,Not progressed,7.5,23.3,3.0,Grade >=3,1.0,0,1L,0,1
+P0295,72.0,Male,False,NSCLC NOS,STK11,1,2.8,1.24,1.15,8.0,0.215,Nivolumab,1,SD,Progressed,3.6,17.7,2.0,None/Grade <3,0.0,0,1L,0,1
+P0296,83.0,Female,True,Adenocarcinoma,"BRAF, KRAS",2,12.11,1.25,0.99,8.0,0.543,Osimertinib,1,PR,Progressed,,10.7,1.0,None/Grade <3,0.0,0,1L,0,1
+P0297,55.0,Male,True,Squamous,ROS1,1,13.98,4.36,1.1,8.0,0.186,Carboplatin+Pemetrexed,1L,PD,Progressed,28.1,27.1,0.0,None/Grade <3,0.0,0,1L,1,1
+P0298,50.0,Female,True,NSCLC NOS,ALK,1,8.65,4.02,0.88,8.0,0.483,Osimertinib,1L,PD,Progressed,5.2,23.1,0.0,None/Grade <3,0.0,0,1L,0,1
+P0299,74.0,Male,True,Adenocarcinoma,"EGFR, KRAS",2,6.05,6.5,1.07,8.0,0.509,Alectinib,First line,SD,Progressed,10.9,70.0,2.0,None/Grade <3,0.0,0,1L,0,1
+P0300,85.0,Female,True,Squamous,TP53,1,6.85,1.94,0.82,8.0,0.205,Osimertinib,2,PR,Progressed,5.3,20.2,0.0,None/Grade <3,0.0,0,2L,0,1
