@@ -1,0 +1,46 @@
+EVALUATION ENGINEER — LOCKED PIPELINE EVALUATION
+=================================================================
+
+Model: Calibrated LogisticRegression
+Frozen threshold: 0.25 (recall>=0.70 and specificity>=0.10)
+Test set: 59 patients (14 toxic)
+RESEARCH / TUMOR-BOARD SUPPORT ONLY. Not a diagnostic device. Do not use for treatment decisions without independent clinical validation.
+
+1. METRICS @ FROZEN THRESHOLD
+----------------------------------------
+  ROC-AUC                                 : 0.438
+  PR-AUC (Average Precision)              : 0.245
+  Brier Score (lower=better)              : 0.185
+  Accuracy @ frozen                       : 0.508
+  Precision (PPV) @ frozen                : 0.143
+  Recall / Sensitivity @ frozen           : 0.214
+  Specificity @ frozen                    : 0.600
+  F1 @ frozen                             : 0.171
+  MCC @ frozen                            : -0.165
+  Cohen's Kappa @ frozen                  : -0.158
+
+2. ERRORS @ FROZEN THRESHOLD
+----------------------------------------
+  False negatives: 11
+  False positives: 16
+
+3. SUBGROUPS (small-n; interpret cautiously)
+----------------------------------------
+        subgroup_type         subgroup_value  n  positive_rate  roc_auc
+            histology         Adenocarcinoma 24          0.333    0.445
+            histology              NSCLC NOS 18          0.278    0.369
+            histology               Squamous 14          0.071    1.000
+       treatment_name              Alectinib 12          0.167    0.550
+       treatment_name Carboplatin+Pemetrexed 11          0.182    0.389
+       treatment_name              Docetaxel  6          0.167    1.000
+       treatment_name              Nivolumab 11          0.273    0.458
+       treatment_name            Osimertinib  8          0.250    0.167
+       treatment_name          Pembrolizumab 11          0.364    0.464
+                  sex                 Female 38          0.211    0.658
+                  sex                   Male 21          0.286    0.144
+line_of_therapy_clean                     1L 41          0.244    0.374
+line_of_therapy_clean                     2L 18          0.222    0.607
+
+4. VERDICT
+----------------------------------------
+  ROC-AUC = 0.438 -> WEAK / NEAR-RANDOM on available features. Locked pipeline is a process demo, not a clinical classifier.

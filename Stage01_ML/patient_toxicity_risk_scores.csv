@@ -1,0 +1,60 @@
+patient_id,age,sex,histology,gene_mutation,treatment_name,line_of_therapy_clean,toxicity_event_binary,toxicity_risk_score_pct,risk_tier,abstain
+P0164,62.0,Female,NSCLC NOS,KEAP1,Osimertinib,1L,0.0,32.0,MEDIUM,0
+P0260,66.0,Female,NSCLC NOS,"KEAP1, STK11",Carboplatin+Pemetrexed,1L,0.0,31.0,MEDIUM,0
+P0270,78.0,Male,,"KRAS, ROS1",Carboplatin+Pemetrexed,1L,0.0,30.7,ABSTAIN,1
+P0254,64.0,Female,Adenocarcinoma,"KEAP1, ROS1",Alectinib,1L,1.0,30.5,MEDIUM,0
+P0066,75.0,Female,Squamous,KRAS,Carboplatin+Pemetrexed,2L,1.0,29.1,MEDIUM,0
+P0206,69.0,Female,Squamous,TP53,Carboplatin+Pemetrexed,1L,0.0,28.6,MEDIUM,0
+P0139,58.0,Female,Adenocarcinoma,"ALK, PIK3CA, ROS1",Carboplatin+Pemetrexed,2L,0.0,28.5,MEDIUM,0
+P0126,61.0,Female,NSCLC NOS,"ALK, KEAP1",Docetaxel,1L,1.0,27.2,MEDIUM,0
+P0129,69.0,Male,Squamous,"KEAP1, PIK3CA",Alectinib,1L,0.0,27.1,MEDIUM,0
+P0250,,Female,Adenocarcinoma,"EGFR, PIK3CA",Carboplatin+Pemetrexed,2L,0.0,26.8,ABSTAIN,1
+P0077,69.0,Female,Adenocarcinoma,KEAP1,Alectinib,1L,0.0,26.7,MEDIUM,0
+P0055,52.0,Female,Squamous,"BRAF, EGFR",Carboplatin+Pemetrexed,1L,0.0,26.7,MEDIUM,0
+P0300,85.0,Female,Squamous,TP53,Osimertinib,2L,0.0,26.6,MEDIUM,0
+P0275,62.0,Male,Squamous,"KRAS, STK11",Alectinib,2L,0.0,26.4,MEDIUM,0
+P0257,59.0,Male,NSCLC NOS,"EGFR, TP53",Alectinib,1L,0.0,26.3,MEDIUM,0
+P0204,60.0,Female,Adenocarcinoma,ALK,Nivolumab,1L,0.0,26.2,MEDIUM,0
+P0297,55.0,Male,Squamous,ROS1,Carboplatin+Pemetrexed,1L,0.0,26.0,MEDIUM,0
+P0104,63.0,Female,Adenocarcinoma,ALK,Alectinib,2L,0.0,25.9,MEDIUM,0
+P0075,59.0,Male,Adenocarcinoma,"KRAS, TP53",Carboplatin+Pemetrexed,1L,0.0,25.5,MEDIUM,0
+P0237,65.0,Male,NSCLC NOS,EGFR,Alectinib,1L,0.0,25.4,MEDIUM,0
+P0144,77.0,Female,NSCLC NOS,KEAP1,Nivolumab,2L,0.0,25.4,MEDIUM,0
+P0084,70.0,Female,NSCLC NOS,ROS1,Osimertinib,1L,0.0,24.7,LOW,0
+P0292,59.0,Female,,"MET, ROS1",Nivolumab,1L,0.0,24.7,ABSTAIN,1
+P0095,88.0,Female,Adenocarcinoma,"ROS1, STK11",Nivolumab,2L,1.0,24.6,LOW,0
+P0212,78.0,Male,Adenocarcinoma,MET,Pembrolizumab,2L,0.0,24.0,LOW,0
+P0283,82.0,Female,NSCLC NOS,"EGFR, MET",Carboplatin+Pemetrexed,1L,0.0,23.8,LOW,0
+P0070,75.0,Female,Adenocarcinoma,"KEAP1, PIK3CA",Pembrolizumab,2L,1.0,23.8,LOW,0
+P0123,74.0,Female,Adenocarcinoma,TP53,Docetaxel,1L,0.0,23.8,LOW,0
+P0122,72.0,Male,Squamous,MET,Osimertinib,1L,0.0,23.5,LOW,0
+P0021,72.0,Male,Adenocarcinoma,"KEAP1, MET",Osimertinib,2L,0.0,23.5,LOW,0
+P0231,69.0,Female,NSCLC NOS,"KRAS, MET",Carboplatin+Pemetrexed,1L,1.0,23.4,LOW,0
+P0150,64.0,Female,NSCLC NOS,"EGFR, TP53",Osimertinib,1L,1.0,23.3,LOW,0
+P0177,58.0,Female,NSCLC NOS,"BRAF, KEAP1",Docetaxel,1L,0.0,23.2,LOW,0
+P0143,67.0,Female,NSCLC NOS,"ALK, STK11",Pembrolizumab,1L,0.0,23.1,LOW,0
+P0287,67.0,Male,Adenocarcinoma,"MET, ROS1, STK11",Pembrolizumab,1L,1.0,22.7,LOW,0
+P0158,75.0,Female,Squamous,"KEAP1, PIK3CA, TP53",Docetaxel,2L,0.0,22.5,LOW,0
+P0006,61.0,Female,Adenocarcinoma,"ALK, STK11",Nivolumab,2L,1.0,22.4,LOW,0
+P0033,56.0,Female,Adenocarcinoma,"BRAF, TP53",Alectinib,1L,0.0,22.1,LOW,0
+P0091,71.0,Male,NSCLC NOS,KRAS,Alectinib,1L,0.0,22.1,LOW,0
+P0072,79.0,Male,Adenocarcinoma,"MET, TP53",Nivolumab,1L,0.0,22.0,LOW,0
+P0003,62.0,Female,NSCLC NOS,"MET, PIK3CA, ROS1",Alectinib,2L,0.0,22.0,LOW,0
+P0101,73.0,Female,Squamous,"ALK, MET",Pembrolizumab,1L,0.0,21.6,LOW,0
+P0083,72.0,Female,Squamous,PIK3CA,Pembrolizumab,1L,0.0,21.5,LOW,0
+P0284,74.0,Female,NSCLC NOS,ROS1,Nivolumab,1L,0.0,21.5,LOW,0
+P0025,81.0,Male,Adenocarcinoma,ALK,Osimertinib,1L,1.0,21.5,LOW,0
+P0176,49.0,Female,Squamous,"MET, ROS1",Osimertinib,1L,0.0,21.4,LOW,0
+P0259,71.0,Female,Squamous,KRAS,Docetaxel,2L,0.0,21.2,LOW,0
+P0173,73.0,Male,NSCLC NOS,"MET, PIK3CA",Alectinib,1L,1.0,21.1,LOW,0
+P0263,46.0,Female,NSCLC NOS,BRAF,Pembrolizumab,2L,0.0,20.1,LOW,0
+P0217,55.0,Male,Adenocarcinoma,MET,Nivolumab,2L,0.0,19.9,LOW,0
+P0136,73.0,Male,Adenocarcinoma,ROS1,Nivolumab,2L,0.0,19.8,LOW,0
+P0294,56.0,Male,Adenocarcinoma,KRAS,Nivolumab,1L,1.0,19.0,LOW,0
+P0127,63.0,Male,NSCLC NOS,"PIK3CA, STK11",Pembrolizumab,1L,1.0,18.9,LOW,0
+P0243,67.0,Male,Adenocarcinoma,"BRAF, STK11",Docetaxel,1L,0.0,18.9,LOW,0
+P0030,45.0,Female,Adenocarcinoma,"BRAF, MET",Pembrolizumab,1L,0.0,18.7,LOW,0
+P0140,71.0,Female,Squamous,BRAF,Pembrolizumab,1L,0.0,18.5,LOW,0
+P0080,71.0,Female,,"KRAS, STK11",Nivolumab,1L,0.0,18.4,ABSTAIN,1
+P0279,67.0,Female,Adenocarcinoma,"BRAF, STK11, TP53",Alectinib,1L,0.0,18.2,LOW,0
+P0218,74.0,Male,Adenocarcinoma,"EGFR, PIK3CA",Pembrolizumab,1L,1.0,17.0,LOW,0

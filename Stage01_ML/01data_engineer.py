@@ -6,7 +6,7 @@ from pathlib import Path
 # Raw Oncology Data -> Clean Master Dataset
 # ============================================================
 
-DATA_PATH = Path("data")
+DATA_PATH = Path(__file__).resolve().parent / "Data"
 
 # ------------------------------------------------------------
 # 1. LOAD RAW DATA

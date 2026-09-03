@@ -1,0 +1,38 @@
+TOXICITY RISK SCORE - LOCKED PIPELINE SUMMARY
+============================================================
+
+INTENDED USE: RESEARCH / TUMOR-BOARD SUPPORT ONLY. Not a diagnostic device. Do not use for treatment decisions without independent clinical validation.
+
+Labeled cohort: 293 patients  |  event rate 23.2%
+Champion (selected on train OOF PR-AUC): LogisticRegression
+Train OOF PR-AUC=0.226  ROC-AUC=0.415
+Frozen threshold: 0.25 (recall>=0.70 and specificity>=0.10)
+
+Held-out test (not used for model or threshold selection):
+  ROC-AUC=0.438  PR-AUC=0.245  Brier=0.185  Recall@thr=0.214
+
+Comparison (train OOF):
+  LogisticRegression     PR-AUC=0.226  ROC-AUC=0.415
+  HistGradientBoosting   PR-AUC=0.204  ROC-AUC=0.407
+
+Top |weights| / importances:
+  cat__histology_Unknown: 0.9467
+  bin__gene_BRAF: 0.8460
+  bin__gene_ALK: 0.8080
+  cat__treatment_name_Carboplatin+Pemetrexed: 0.5350
+  cat__histology_NSCLC NOS: 0.4615
+  num__max_variant_allele_fraction: 0.4280
+  cat__treatment_name_Pembrolizumab: 0.3642
+  cat__smoking_status_False: 0.3633
+  cat__smoking_status_True: 0.3628
+  cat__treatment_name_Nivolumab: 0.3422
+  cat__treatment_name_Alectinib: 0.3333
+  cat__treatment_name_Docetaxel: 0.3315
+
+Held-out risk tiers:
+risk_tier
+LOW        36
+MEDIUM     19
+ABSTAIN     4
+
+NOTE: Discrimination is weak on this dataset. Treat scores as a workflow demo, not a validated clinical classifier.

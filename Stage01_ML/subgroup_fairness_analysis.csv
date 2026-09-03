@@ -1,0 +1,14 @@
+subgroup_type,subgroup_value,n,positive_rate,roc_auc
+histology,Adenocarcinoma,24,0.333,0.445
+histology,NSCLC NOS,18,0.278,0.369
+histology,Squamous,14,0.071,1.0
+treatment_name,Alectinib,12,0.167,0.55
+treatment_name,Carboplatin+Pemetrexed,11,0.182,0.389
+treatment_name,Docetaxel,6,0.167,1.0
+treatment_name,Nivolumab,11,0.273,0.458
+treatment_name,Osimertinib,8,0.25,0.167
+treatment_name,Pembrolizumab,11,0.364,0.464
+sex,Female,38,0.211,0.658
+sex,Male,21,0.286,0.144
+line_of_therapy_clean,1L,41,0.244,0.374
+line_of_therapy_clean,2L,18,0.222,0.607
